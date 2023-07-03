@@ -1,1714 +1,2223 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="VN_MF_GAMEMODE">
   <Package name="MF">
-    <Container name="default">
+    <Container name="default">				  
       <Key ID="STR_vn_mf_levelup">
-        <Original>LEVEL UP!</Original>
-      </Key>
-      <Key ID="STR_vn_mf_rankpoint_short">
-        <Original>RP</Original>
-      </Key>
-      <Key ID="STR_vn_mf_needdutyofficer">
-        <Original>Cannot change teams without a duty officer present.</Original>
-      </Key>
-      <Key ID="STR_vn_mf_dropincomming">
-        <Original>%1 drop incomming.</Original>
-      </Key>
-      <Key ID="STR_vn_mf_requestdrop">
-        <Original>Request %1</Original>
-      </Key>
-      <Key ID="STR_vn_mf_goto">
-        <Original>Goto %1</Original>
-      </Key>
-      <Key ID="STR_vn_mf_training">
-        <Original>%1 Training</Original>
-      </Key>
-      <Key ID="STR_vn_mf_needtobeengineer">
-        <Original>You must be an %1 to build, please see a Duty Officer.</Original>
-      </Key>
-      <Key ID="STR_vn_mf_medic">
-        <Original>Medic</Original>
-      </Key>
-      <Key ID="STR_vn_mf_radioOperator">
-        <Original>Radio Operator</Original>
-      </Key>
-      <Key ID="STR_vn_mf_radioOperatorTasks">
-        <Original>Operating radios, communication</Original>
-      </Key>
-      <Key ID="STR_vn_mf_engineer">
-        <Original>Engineer</Original>
-      </Key>
-      <Key ID="STR_vn_mf_explosive_specialist">
-        <Original>Explosive Specialist</Original>
-      </Key>
-      <Key ID="STR_vn_mf_resupply">
-        <Original>Resupply With Crate</Original>
-      </Key>
-      <Key ID="STR_vn_mf_scout_action">
-        <Original>Scout for Nearest Enemy Site</Original>
-      </Key>
-      <Key ID="STR_vn_mf_arsenal">
-        <Original>Arsenal</Original>
-      </Key>
-      <Key ID="STR_vn_mf_nosupplydropnearby">
-        <Original>No supplies nearby!</Original>
-      </Key>
-      <Key ID="STR_vn_mf_invite">
-        <Original>Invite %1</Original>
-      </Key>
-      <Key ID="STR_vn_mf_friendsmade">
-        <Original>Acquaintance made</Original>
-      </Key>
-      <Key ID="STR_vn_mf_trainingcomplete">
-        <Original>Training Complete</Original>
-      </Key>
-      <Key ID="STR_vn_mf_invitereceived">
-        <Original>Invite Received</Original>
-      </Key>
-      <Key ID="STR_vn_mf_onetraitperplayer">
-        <Original>You can only have one speciality at a time.</Original>
-      </Key>
-      <Key ID="STR_vn_mf_onetraitperteam">
-        <Original>Your team already has a player with that speciality.</Original>
-      </Key>
-      <Key ID="STR_vn_mf_supplydroponstandby">
-        <Original>Supply drops on standby, make sure no other supplies are near drop zone.</Original>
-      </Key>
-      <Key ID="STR_vn_mf_situation_room">
-        <Original>Situation Room</Original>
-      </Key>
-      <Key ID="STR_vn_mf_checkpoint">
-        <Original>Checkpoint</Original>
-      </Key>
-      <Key ID="STR_vn_mf_aid_post">
-        <Original>Aid Post</Original>
-      </Key>
-      <Key ID="STR_vn_mf_guardtower">
-        <Original>Guard Tower</Original>
-      </Key>
-      <Key ID="STR_vn_mf_ammoresupply">
-        <Original>Ammo Resupply Station</Original>
-      </Key>
-      <Key ID="STR_vn_mf_repairresupply">
-        <Original>Repair Station</Original>
-      </Key>
-      <Key ID="STR_vn_mf_fuelresupply">
-        <Original>Fuel Station</Original>
-      </Key>
-      <Key ID="STR_vn_mf_vehicle_workshop">
-        <Original>Vehicle Workshop</Original>
-      </Key>
-      <Key ID="STR_vn_mf_bridgebailey01">
-        <Original>Bailey Bridge 1</Original>
-      </Key>
-      <Key ID="STR_vn_mf_bridgebailey02">
-        <Original>Bailey Bridge 2</Original>
-      </Key>
-      <Key ID="STR_vn_mf_bridgebailey03">
-        <Original>Bailey Bridge 3</Original>
-      </Key>
-      <Key ID="STR_vn_mf_bridgebailey04">
-        <Original>Bailey Bridge 4</Original>
-      </Key>
-      <Key ID="STR_vn_mf_bridgeramp01">
-        <Original>Bridge Ramp</Original>
-      </Key>
-      <Key ID="STR_vn_mf_bridgesmall01">
-        <Original>Small Bridge 1</Original>
-      </Key>
-      <Key ID="STR_vn_mf_bridgesmall02">
-        <Original>Small Bridge 2</Original>
-      </Key>
-      <Key ID="STR_vn_mf_bridgesmall03">
-        <Original>Small Bridge 3</Original>
-      </Key>
-      <Key ID="STR_vn_mf_bridgesmall04">
-        <Original>Small Bridge 4</Original>
-      </Key>
-      <Key ID="STR_vn_mf_school">
-        <Original>School</Original>
-      </Key>
-      <Key ID="STR_vn_mf_drink_water">
-        <Original>Drink Water</Original>
-      </Key>
-      <Key ID="STR_vn_mf_eat_food">
-        <Original>Eat Food</Original>
-      </Key>
-      <Key ID="STR_vn_mf_repack">
-        <Original>Repack</Original>
-      </Key>
-      <Key ID="STR_vn_mf_drink">
-        <Original>Drink</Original>
-      </Key>
-      <Key ID="STR_vn_mf_take_medicine">
-        <Original>Take Medicine</Original>
-      </Key>
-      <Key ID="STR_vn_mf_refill">
-        <Original>Refill</Original>
-      </Key>
-      <Key ID="STR_vn_mf_eat">
-        <Original>Eat</Original>
-      </Key>
-      <Key ID="STR_vn_mf_check_pulse">
-        <Original>Check Pulse</Original>
-      </Key>
-      <Key ID="STR_vn_mf_build">
-        <Original>Build</Original>
-      </Key>
-      <Key ID="STR_vn_mf_idle">
-        <Original>Idle</Original>
-      </Key>
-      <Key ID="STR_vn_mf_wreck">
-        <Original>Wreck</Original>
-      </Key>
-      <Key ID="STR_vn_mf_disabled">
-        <Original>Disabled</Original>
-      </Key>
-      <Key ID="STR_vn_mf_vehicle_locked_to_team">
-        <Original>This vehicle can't be used by your team</Original>
-      </Key>
-      <Key ID="STR_vn_mf_respawn_mike_force">
-        <Original>PLEI MEI SF CAMP - MIKE FORCE</Original>
-      </Key>
-      <Key ID="STR_vn_mf_respawn_green_hornets">
-        <Original>PLEIKU - GREEN HORNETS</Original>
-      </Key>
-      <Key ID="STR_vn_mf_respawn_spike_team">
-        <Original>FOB2 KONTUM - SPIKE TEAM</Original>
-      </Key>
-      <Key ID="STR_vn_mf_respawn_acav">
-        <Original>FOB 5 BAN ME THUOT - ACAV</Original>
-      </Key>
-      <Key ID="STR_vn_mf_respawn_mike_force_khe_sanh">
-        <Original>KHE SANH SF CAMP - MIKE FORCE</Original>
-      </Key>
-      <Key ID="STR_vn_mf_respawn_green_hornets_khe_sanh">
-        <Original>KHE SANH SF CAMP - GREEN HORNETS</Original>
-      </Key>
-      <Key ID="STR_vn_mf_respawn_spike_team_khe_sanh">
-        <Original>KHE SANH SF CAMP - SPIKE TEAM</Original>
-      </Key>
-      <Key ID="STR_vn_mf_respawn_acav_khe_sanh">
-        <Original>KHE SANH SF CAMP - ACAV</Original>
-      </Key>
-      <Key ID="STR_vn_mf_respawn_spike_team_altis">
-        <Original>MOLOS VILLAGE - SPIKE TEAM</Original>
-      </Key>
-      <Key ID="STR_vn_mf_respawn_mike_force_altis">
-        <Original>MOLOS VILLAGE - MIKE FORCE</Original>
-      </Key>
-      <Key ID="STR_vn_mf_respawn_green_hornets_altis">
-        <Original>MOLOS AIRFIELD - GREEN HORNETS</Original>
-      </Key>
-      <Key ID="STR_vn_mf_respawn_acav_altis">
-        <Original>FOB 1 - ACAV</Original>
-      </Key>
-      <Key ID="STR_vn_mf_supply_officer">
-        <Original>Supply Officer</Original>
-      </Key>
-      <Key ID="STR_vn_mf_duty_officer">
-        <Original>Duty Officer</Original>
-      </Key>
-      <Key ID="STR_vn_mf_light_helicopters">
-        <Original>Light Helicopters</Original>
-      </Key>
-      <Key ID="STR_vn_mf_helicopters">
-        <Original>Helicopters</Original>
-      </Key>
-      <Key ID="STR_vn_mf_wreck_recovery">
-        <Original>Wreck Recovery</Original>
-      </Key>
-      <Key ID="STR_vn_mf_rearm">
-        <Original>Rearm</Original>
-      </Key>
-      <Key ID="STR_vn_mf_loading1">
-        <Original>writing diary entry...</Original>
-      </Key>
-      <Key ID="STR_vn_mf_loading2">
-        <Original>checking pockets...</Original>
-      </Key>
-      <Key ID="STR_vn_mf_loading3">
-        <Original>cleaning glasses...</Original>
-      </Key>
-      <Key ID="STR_vn_mf_loading4">
-        <Original>putting boots on...</Original>
-      </Key>
-      <Key ID="STR_vn_mf_loading5">
-        <Original>washing canteen...</Original>
-      </Key>
-      <Key ID="STR_vn_mf_loading6">
-        <Original>polishing spork...</Original>
-      </Key>
-      <Key ID="STR_vn_mf_loading7">
-        <Original>putting on shades...</Original>
-      </Key>
-      <Key ID="STR_vn_mf_loading8">
-        <Original>dusting off shoulders...</Original>
-      </Key>
-      <Key ID="STR_vn_mf_loading9">
-        <Original>shining boots...</Original>
-      </Key>
-      <Key ID="STR_vn_mf_loading10">
-        <Original>ready for action...</Original>
-      </Key>
-      <Key ID="STR_vn_mf_howtobuild">
-        <Original>How to Build</Original>
-      </Key>
-      <Key ID="STR_vn_mf_howtobuild_long">
-        <Original>Note: Engineer training required!&lt;br&gt;&lt;/br&gt;Press 'N' to enable/disable building.&lt;br&gt;&lt;/br&gt;Use mouse scroll wheel for adjustments, press Alt to cycle between height adjustment or rotation.&lt;br&gt;&lt;/br&gt;Press and hold 'Space' to finalize Build.</Original>
-      </Key>
-      <Key ID="STR_vn_mf_other_keys">
-        <Original>Other Key Binds</Original>
-      </Key>
-      <Key ID="STR_vn_mf_other_keys_long">
-        <Original>Press 'Y' to use gesture menu ('Z' on QWERTZ keyboards).&lt;br&gt;&lt;/br&gt;Press 'H' to open task roster.&lt;br&gt;&lt;/br&gt;Press '6' to activate wheel menu.&lt;br&gt;&lt;/br&gt;</Original>
-      </Key>
-      <Key ID="STR_vn_mf_restrictedzone">
-        <Original>Cannot build in Restricted Zone!</Original>
-      </Key>
-      <Key ID="STR_vn_mf_purple_heart">
-        <Original>Purple Heart</Original>
-      </Key>
-      <Key ID="STR_vn_mf_rvn_wound_medal">
-        <Original>RVN Wound Medal</Original>
-      </Key>
-      <Key ID="STR_vn_mf_distinguished_service_cross">
-        <Original>Distinguished Service Cross</Original>
-      </Key>
-      <Key ID="STR_vn_mf_vietnam_gallantry_cross">
-        <Original>Vietnam Gallantry Cross</Original>
-      </Key>
-      <Key ID="STR_vn_mf_rvn_defense_medal">
-        <Original>RVN Defense Medal</Original>
-      </Key>
-      <Key ID="STR_vn_mf_combat_infantryman_badge">
-        <Original>Combat Infantryman Badge</Original>
-      </Key>
-      <Key ID="STR_vn_mf_bronze_star">
-        <Original>Bronze Star</Original>
-      </Key>
-      <Key ID="STR_vn_mf_silver_star">
-        <Original>Silver Star</Original>
-      </Key>
-      <Key ID="STR_vn_mf_air_medal">
-        <Original>Air Medal</Original>
-      </Key>
-      <Key ID="STR_vn_mf_distinguished_service_order">
-        <Original>Distinguished Service Order</Original>
-      </Key>
-      <Key ID="STR_vn_mf_congressional_medalofhonor">
-        <Original>Congressional Medal of Honor</Original>
-      </Key>
-      <Key ID="STR_vn_mf_air_cross_of_gallantry">
-        <Original>RVN Air Cross of Gallantry</Original>
-      </Key>
-      <Key ID="STR_vn_mf_vietnam_tet_campaign_commemorative_medal">
-        <Original>Vietnam Tet Campaign Commemorative Medal</Original>
-      </Key>
-      <Key ID="STR_vn_mf_rvn_special_service_medal">
-        <Original>RVN Special Service Medal</Original>
-      </Key>
-      <Key ID="STR_vn_mf_national_defense_service_medal">
-        <Original>National Defense Service Medal</Original>
-      </Key>
-      <Key ID="STR_vn_mf_distinguished_flying_cross">
-        <Original>Distinguished Flying Cross</Original>
-      </Key>
-      <Key ID="STR_vn_mf_army_commendation_medal">
-        <Original>Army Commendation Medal</Original>
-      </Key>
-      <Key ID="STR_vn_mf_air_force_good_conduct_medal">
-        <Original>Air Force Good Conduct Medal</Original>
-      </Key>
-      <Key ID="STR_vn_mf_air_force_cross">
-        <Original>Air Force Cross</Original>
-      </Key>
-      <Key ID="STR_vn_mf_special_operations_medal">
-        <Original>Special Operations Medal</Original>
-      </Key>
-      <Key ID="STR_vn_mf_army_presidential_unit_citation">
-        <Original>Army Presidential Unit Citation</Original>
-      </Key>
-      <Key ID="STR_vn_mf_usaf_outstanding_unit_award">
-        <Original>USAF Outstanding Unit Award</Original>
-      </Key>
-      <Key ID="STR_vn_mf_meritorious_unit_citation">
-        <Original>Meritorious Unit Citation</Original>
-      </Key>
-      <Key ID="STR_vn_mf_meritorious_service_medal">
-        <Original>Meritorious Service Medal</Original>
-      </Key>
-      <Key ID="STR_vn_mf_joint_service_commendation_medal">
-        <Original>Joint Service Commendation Medal</Original>
-      </Key>
-      <Key ID="STR_vn_mf_legion_of_merit">
-        <Original>Legion of Merit</Original>
-      </Key>
-      <Key ID="STR_vn_mf_vietnam_service_medal">
-        <Original>Vietnam Service Medal</Original>
-      </Key>
-      <Key ID="STR_vn_mf_republic_of_vietnam_campaign_medal">
-        <Original>Republic of Vietnam Campaign Medal</Original>
-      </Key>
-      <Key ID="STR_vn_mf_gulf_of_tonkin_vietnam_commemorative_medal">
-        <Original>Gulf of Tonkin Vietnam Commemorative Medal</Original>
-      </Key>
-      <Key ID="STR_vn_mf_navy_cross">
-        <Original>Navy Cross</Original>
-      </Key>
-      <Key ID="STR_vn_mf_rvn_training_service_medal">
-        <Original>RVN Training Service Medal</Original>
-      </Key>
-      <Key ID="STR_vn_mf_rvn_technical_service_medal">
-        <Original>RVN Technical Service Medal</Original>
-      </Key>
-      <Key ID="STR_vn_mf_rvn_military_merit_first_republic_medal">
-        <Original>RVN Military Merit First Republic Medal</Original>
-      </Key>
-      <Key ID="STR_vn_mf_hud_interact">
-        <Original>Interact</Original>
-      </Key>
-      <Key ID="STR_vn_mf_hud_toggledOff">
-        <Original>You toggled off the interaction overlay.</Original>
-      </Key>
-      <Key ID="STR_vn_mf_hud_toggledOn">
-        <Original>You toggled on the interaction overlay.</Original>
-      </Key>
-      <Key ID="STR_vn_mf_keybindings_interactionOverlay_toggle">
-        <Original>Toggle Interaction Overlay</Original>
-      </Key>
-      <Key ID="STR_vn_mf_taskRoster_Main_MikeForceDescription">
-        <Original>As special forces infantry, your team's role is to:&lt;br/&gt;- Sweep and clear areas of enemy&lt;br/&gt;- Secure and hold zones&lt;br/&gt;- Protect populations, logistics and supplies&lt;br/&gt;- Reinforce other teams&lt;br/&gt;Tasks&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_primary.paa'/&gt; Primary Tasks are shared by all teams.&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_secondary.paa'/&gt; Secondary Tasks are unique to your team.&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_support.paa'/&gt; Support Tasks are called by other teams in need of your help. You may also request their support, for example transport is provided for you by ACAV or Green Hornets.</Original>
-      </Key>
-      <Key ID="STR_vn_mf_taskRoster_Main_SpikeTeamDescription">
-        <Original>As special forces recon, your team's role is to:&lt;br/&gt;- Carry out reconnaissance to locate enemy infrastructure&lt;br/&gt;- Ambush and assault the enemy&lt;br/&gt;- Direct air and armour support onto enemy concentrations&lt;br/&gt;- Support other teams with reconnaissance and search and rescue&lt;br/&gt;Tasks&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_primary.paa'/&gt; Primary Tasks are shared by all teams. &lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_secondary.paa'/&gt; Secondary Tasks are unique to your team.&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_support.paa'/&gt; Support Tasks are called by other teams in need of your help. You may also request their support, for example transport is provided for you by ACAV or Green Hornets.</Original>
-      </Key>
-      <Key ID="STR_vn_mf_taskRoster_Main_GreenHornetsTeamDescription">
-        <Original>As a Green Hornet, your team's role is to fly helicopters and jets to:&lt;br/&gt;- Insert and extract troops to their desired location&lt;br/&gt;- Carry out aerial reconnaissance to find enemy infrastructure&lt;br/&gt;- Support other teams with close air support&lt;br/&gt;- Deliver supplies to build new infrastructure&lt;br/&gt;- Engage enemy aircraft&lt;br/&gt;Tasks&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_primary.paa'/&gt; Primary Tasks are shared by all teams.&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_secondary.paa'/&gt; Secondary Tasks are unique to your team.&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_support.paa'/&gt; Support Tasks are called by other teams in need of your help. You may also request their support, for example search and rescue is provided for you by Spike Team.</Original>
-      </Key>
-      <Key ID="STR_vn_mf_taskRoster_Main_ArmouredCavalryDescription">
-        <Original>As Armoured Cavalry, your team's role is to operate trucks and tanks to:&lt;br/&gt;- Insert and extract troops to their desired location&lt;br/&gt;- Support other teams with heavy weapons vehicles&lt;br/&gt;- Deliver supplies and build new infrastructure&lt;br/&gt;- Engage enemy vehicles and armour&lt;br/&gt;Tasks&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_primary.paa'/&gt; Primary Tasks are shared by all teams. &lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_secondary.paa'/&gt; Secondary Tasks are unique to your team.&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_support.paa'/&gt; Support Tasks are called by other teams in need of your help. You may also request their support, for example vehicle recovery or convoy protection is provided for you by Green Hornets.</Original>
-      </Key>
-      <Key ID="STR_vn_mf_taskRoster_Main_rolesHeaderName">
+		<Original>LEVEL UP!</Original>
+		<Korean>레벨 업!</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_rankpoint_short">
+		<Original>RP</Original>
+		<Korean>RP</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_needdutyofficer">
+		<Original>Cannot change teams without a duty officer present.</Original>
+		<Korean>직무 담당자가 없을 경우 팀을 변경할 수 없습니다.</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_dropincomming">
+		<Original>%1 drop incomming.</Original>
+		<Korean>%1 드롭 도착.</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_requestdrop">
+		<Original>Request %1</Original>
+		<Korean>%1 요청</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_goto">
+		<Original>Goto %1</Original>
+		<Korean>%1로 이동</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_training">
+		<Original>%1 Training</Original>
+		<Korean>%1 훈련</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_needtobeengineer">
+		<Original>You must be an %1 to build, please see a Duty Officer.</Original>
+		<Korean>건설을 위해서는 %1이 되어야 합니다. 담당자에게 문의해주세요.</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_medic">
+		<Original>Medic</Original>
+		<Korean>의무병</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_radioOperator">
+		<Original>Radio Operator</Original>
+		<Korean>무전수</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_radioOperatorTasks">
+		<Original>Operating radios, communication</Original>
+		<Korean>무전기 작동, 통신</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_engineer">
+		<Original>Engineer</Original>
+		<Korean>기술병</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_explosive_specialist">
+		<Original>Explosive Specialist</Original>
+		<Korean>폭발물 전문가</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_resupply">
+		<Original>Resupply With Crate</Original>
+		<Korean>상자로 보급</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_scout_action">
+		<Original>Scout for Nearest Enemy Site</Original>
+		<Korean>가까운 적 사이트 정찰</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_arsenal">
+		<Original>Arsenal</Original>
+		<Korean>무기고</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_nosupplydropnearby">
+		<Original>No supplies nearby!</Original>
+		<Korean>주변에 보급품이 없습니다!</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_invite">
+		<Original>Invite %1</Original>
+		<Korean>%1 초대</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_friendsmade">
+		<Original>Acquaintance made</Original>
+		<Korean>지인 만남</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_trainingcomplete">
+		<Original>Training Complete</Original>
+		<Korean>훈련 완료</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_invitereceived">
+		<Original>Invite Received</Original>
+		<Korean>초대 수락</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_onetraitperplayer">
+		<Original>You can only have one speciality at a time.</Original>
+		<Korean>한 번에 하나의 전문 분야만 가질 수 있습니다.</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_onetraitperteam">
+		<Original>Your team already has a player with that speciality.</Original>
+		<Korean>팀에 이미 해당 전문 분야를 가진 플레이어가 있습니다.</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_supplydroponstandby">
+		<Original>Supply drops on standby, make sure no other supplies are near drop zone.</Original>
+		<Korean>보급품이 대기 중입니다. 하강 지점 주변에 다른 보급품이 없는지 확인하세요.</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_situation_room">
+		<Original>Situation Room</Original>
+		<Korean>상황실</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_checkpoint">
+		<Original>Checkpoint</Original>
+		<Korean>검문소</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_aid_post">
+		<Original>Aid Post</Original>
+		<Korean>구호소</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_guardtower">
+		<Original>Guard Tower</Original>
+		<Korean>감시 탑</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_ammoresupply">
+		<Original>Ammo Resupply Station</Original>
+		<Korean>탄약 보급소</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_repairresupply">
+		<Original>Repair Station</Original>
+		<Korean>수리소</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_fuelresupply">
+		<Original>Fuel Station</Original>
+		<Korean>연료 보급소</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_vehicle_workshop">
+		<Original>Vehicle Workshop</Original>
+		<Korean>차량 작업장</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_bridgebailey01">
+		<Original>Bailey Bridge 1</Original>
+		<Korean>베일리 다리 1</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_bridgebailey02">
+		<Original>Bailey Bridge 2</Original>
+		<Korean>베일리 다리 2</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_bridgebailey03">
+		<Original>Bailey Bridge 3</Original>
+		<Korean>베일리 다리 3</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_bridgebailey04">
+		<Original>Bailey Bridge 4</Original>
+		<Korean>베일리 다리 4</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_bridgeramp01">
+		<Original>Bridge Ramp</Original>
+		<Korean>다리 경사로</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_bridgesmall01">
+		<Original>Small Bridge 1</Original>
+		<Korean>작은 다리 1</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_bridgesmall02">
+		<Original>Small Bridge 2</Original>
+		<Korean>작은 다리 2</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_bridgesmall03">
+		<Original>Small Bridge 3</Original>
+		<Korean>작은 다리 3</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_bridgesmall04">
+		<Original>Small Bridge 4</Original>
+		<Korean>작은 다리 4</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_school">
+		<Original>School</Original>
+		<Korean>학교</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_drink_water">
+		<Original>Drink Water</Original>
+		<Korean>물 마시기</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_eat_food">
+		<Original>Eat Food</Original>
+		<Korean>음식 먹기</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_repack">
+		<Original>Repack</Original>
+		<Korean>다시 싸기</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_drink">
+		<Original>Drink</Original>
+		<Korean>마시기</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_take_medicine">
+		<Original>Take Medicine</Original>
+		<Korean>약 복용</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_refill">
+		<Original>Refill</Original>
+		<Korean>보충</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_eat">
+		<Original>Eat</Original>
+		<Korean>먹기</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_check_pulse">
+		<Original>Check Pulse</Original>
+		<Korean>맥박 확인</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_build">
+		<Original>Build</Original>
+		<Korean>건설</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_idle">
+		<Original>Idle</Original>
+		<Korean>유휴</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_wreck">
+		<Original>Wreck</Original>
+		<Korean>난파</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_disabled">
+		<Original>Disabled</Original>
+		<Korean>비활성화됨</Korean>
+	</Key>
+<Key ID="STR_vn_mf_vehicle_locked_to_team">
+    <Original>This vehicle can't be used by your team</Original>
+    <Korean>이 차량은 당신의 팀에서 사용할 수 없습니다</Korean>
+</Key>
+<Key ID="STR_vn_mf_respawn_mike_force">
+    <Original>PLEI MEI SF CAMP - MIKE FORCE</Original>
+    <Korean>플레이 메이 특전 부대 캠프 - 마이크 포스</Korean>
+</Key>
+<Key ID="STR_vn_mf_respawn_green_hornets">
+    <Original>PLEIKU - GREEN HORNETS</Original>
+    <Korean>플레이쿠 - 그린 호넷</Korean>
+</Key>
+<Key ID="STR_vn_mf_respawn_spike_team">
+    <Original>FOB2 KONTUM - SPIKE TEAM</Original>
+    <Korean>FOB2 콘툼 - 스파이크 팀</Korean>
+</Key>
+<Key ID="STR_vn_mf_respawn_acav">
+    <Original>FOB 5 BAN ME THUOT - ACAV</Original>
+    <Korean>FOB 5 반메트트 - ACAV</Korean>
+</Key>
+<Key ID="STR_vn_mf_respawn_mike_force_khe_sanh">
+    <Original>KHE SANH SF CAMP - MIKE FORCE</Original>
+    <Korean>케산 특전 부대 캠프 - 마이크 포스</Korean>
+</Key>
+<Key ID="STR_vn_mf_respawn_green_hornets_khe_sanh">
+    <Original>KHE SANH SF CAMP - GREEN HORNETS</Original>
+    <Korean>케산 특전 부대 캠프 - 그린 호넷</Korean>
+</Key>
+<Key ID="STR_vn_mf_respawn_spike_team_khe_sanh">
+    <Original>KHE SANH SF CAMP - SPIKE TEAM</Original>
+    <Korean>케산 특전 부대 캠프 - 스파이크 팀</Korean>
+</Key>
+<Key ID="STR_vn_mf_respawn_acav_khe_sanh">
+    <Original>KHE SANH SF CAMP - ACAV</Original>
+    <Korean>케산 특전 부대 캠프 - ACAV</Korean>
+</Key>
+<Key ID="STR_vn_mf_respawn_spike_team_altis">
+    <Original>MOLOS VILLAGE - SPIKE TEAM</Original>
+    <Korean>몰로스 마을 - 스파이크 팀</Korean>
+</Key>
+<Key ID="STR_vn_mf_respawn_mike_force_altis">
+    <Original>MOLOS VILLAGE - MIKE FORCE</Original>
+    <Korean>몰로스 마을 - 마이크 포스</Korean>
+</Key>
+<Key ID="STR_vn_mf_respawn_green_hornets_altis">
+    <Original>MOLOS AIRFIELD - GREEN HORNETS</Original>
+    <Korean>몰로스 비행장 - 그린 호넷</Korean>
+</Key>
+<Key ID="STR_vn_mf_respawn_acav_altis">
+    <Original>FOB 1 - ACAV</Original>
+    <Korean>FOB 1 - ACAV</Korean>
+</Key>
+<Key ID="STR_vn_mf_supply_officer">
+    <Original>Supply Officer</Original>
+    <Korean>보급관</Korean>
+</Key>
+<Key ID="STR_vn_mf_duty_officer">
+    <Original>Duty Officer</Original>
+    <Korean>당직관</Korean>
+</Key>
+<Key ID="STR_vn_mf_light_helicopters">
+    <Original>Light Helicopters</Original>
+    <Korean>경량 헬리콥터</Korean>
+</Key>
+<Key ID="STR_vn_mf_helicopters">
+    <Original>Helicopters</Original>
+    <Korean>헬리콥터</Korean>
+</Key>
+<Key ID="STR_vn_mf_wreck_recovery">
+    <Original>Wreck Recovery</Original>
+    <Korean>전투 손상 재난 복구</Korean>
+</Key>
+<Key ID="STR_vn_mf_rearm">
+    <Original>Rearm</Original>
+    <Korean>탄약 보급</Korean>
+</Key>
+<Key ID="STR_vn_mf_loading1">
+    <Original>writing diary entry...</Original>
+    <Korean>일기 작성 중...</Korean>
+</Key>
+<Key ID="STR_vn_mf_loading2">
+    <Original>checking pockets...</Original>
+    <Korean>주머니 확인 중...</Korean>
+</Key>
+<Key ID="STR_vn_mf_loading3">
+    <Original>cleaning glasses...</Original>
+    <Korean>안경 닦는 중...</Korean>
+</Key>
+<Key ID="STR_vn_mf_loading4">
+    <Original>putting boots on...</Original>
+    <Korean>부츠 신는 중...</Korean>
+</Key>
+<Key ID="STR_vn_mf_loading5">
+    <Original>washing canteen...</Original>
+    <Korean>물병 닦는 중...</Korean>
+</Key>
+<Key ID="STR_vn_mf_loading6">
+    <Original>polishing spork...</Original>
+    <Korean>스포크 닦는 중...</Korean>
+</Key>
+<Key ID="STR_vn_mf_loading7">
+    <Original>putting on shades...</Original>
+    <Korean>선글라스 착용 중...</Korean>
+</Key>
+<Key ID="STR_vn_mf_loading8">
+    <Original>dusting off shoulders...</Original>
+    <Korean>어깨 먼지 털어내는 중...</Korean>
+</Key>
+<Key ID="STR_vn_mf_loading9">
+    <Original>shining boots...</Original>
+    <Korean>부츠 닦는 중...</Korean>
+</Key>
+<Key ID="STR_vn_mf_loading10">
+    <Original>ready for action...</Original>
+    <Korean>전투 준비 완료...</Korean>
+</Key>
+<Key ID="STR_vn_mf_howtobuild">
+    <Original>How to Build</Original>
+    <Korean>건설 방법</Korean>
+</Key>
+<Key ID="STR_vn_mf_howtobuild_long">
+    <Original>Note: Engineer training required!&lt;br&gt;&lt;/br&gt;Press 'N' to enable/disable building.&lt;br&gt;&lt;/br&gt;Use mouse scroll wheel for adjustments, press Alt to cycle between height adjustment or rotation.&lt;br&gt;&lt;/br&gt;Press and hold 'Space' to finalize Build.</Original>
+    <Korean>참고: 엔지니어 훈련이 필요합니다!&lt;br&gt;&lt;/br&gt;건설을 활성화/비활성화하려면 'N'을 누르세요.&lt;br&gt;&lt;/br&gt;마우스 스크롤 휠을 사용하여 조정하고, 높이 조정 또는 회전 사이를 이동하려면 Alt를 누르세요.&lt;br&gt;&lt;/br&gt;'Space'를 누른 상태로 유지하여 건설을 완료하세요.</Korean>
+</Key>
+<Key ID="STR_vn_mf_other_keys">
+    <Original>Other Key Binds</Original>
+    <Korean>기타 키 설정</Korean>
+</Key>
+<Key ID="STR_vn_mf_other_keys_long">
+    <Original>Press 'Y' to use gesture menu ('Z' on QWERTZ keyboards).&lt;br&gt;&lt;/br&gt;Press 'H' to open task roster.&lt;br&gt;&lt;/br&gt;Press '6' to activate wheel menu.&lt;br&gt;&lt;/br&gt;</Original>
+    <Korean>'Y'를 눌러 제스처 메뉴를 사용합니다 (QWERTZ 키보드의 경우 'Z').&lt;br&gt;&lt;/br&gt;'H'를 눌러 업무 목록을 엽니다.&lt;br&gt;&lt;/br&gt;'6'을 눌러 휠 메뉴를 활성화합니다.&lt;br&gt;&lt;/br&gt;</Korean>
+</Key>
+<Key ID="STR_vn_mf_restrictedzone">
+    <Original>Cannot build in Restricted Zone!</Original>
+    <Korean>제한 구역에서는 건설할 수 없습니다!</Korean>
+</Key>
+<Key ID="STR_vn_mf_purple_heart">
+    <Original>Purple Heart</Original>
+    <Korean>보라색 하트</Korean>
+</Key>
+<Key ID="STR_vn_mf_rvn_wound_medal">
+    <Original>RVN Wound Medal</Original>
+    <Korean>RVN 상처 훼손 훈장</Korean>
+</Key>
+<Key ID="STR_vn_mf_distinguished_service_cross">
+    <Original>Distinguished Service Cross</Original>
+    <Korean>뛰어난 공로 십자 훈장</Korean>
+</Key>
+<Key ID="STR_vn_mf_vietnam_gallantry_cross">
+    <Original>Vietnam Gallantry Cross</Original>
+    <Korean>베트남 용감 십자 훈장</Korean>
+</Key>
+<Key ID="STR_vn_mf_rvn_defense_medal">
+    <Original>RVN Defense Medal</Original>
+    <Korean>RVN 방위 훈장</Korean>
+</Key>
+<Key ID="STR_vn_mf_combat_infantryman_badge">
+    <Original>Combat Infantryman Badge</Original>
+    <Korean>전투 보병 뱃지</Korean>
+</Key>
+<Key ID="STR_vn_mf_bronze_star">
+    <Original>Bronze Star</Original>
+    <Korean>청동 별</Korean>
+</Key>
+<Key ID="STR_vn_mf_silver_star">
+    <Original>Silver Star</Original>
+    <Korean>은색 별</Korean>
+</Key>
+<Key ID="STR_vn_mf_air_medal">
+    <Original>Air Medal</Original>
+    <Korean>공군 훈장</Korean>
+</Key>
+<Key ID="STR_vn_mf_distinguished_service_order">
+    <Original>Distinguished Service Order</Original>
+    <Korean>뛰어난 공로 명령</Korean>
+</Key>
+<Key ID="STR_vn_mf_congressional_medalofhonor">
+    <Original>Congressional Medal of Honor</Original>
+    <Korean>명예 의회 훈장</Korean>
+</Key>
+<Key ID="STR_vn_mf_air_cross_of_gallantry">
+    <Original>RVN Air Cross of Gallantry</Original>
+    <Korean>RVN 공훈 공군 십자 훈장</Korean>
+</Key>
+<Key ID="STR_vn_mf_vietnam_tet_campaign_commemorative_medal">
+    <Original>Vietnam Tet Campaign Commemorative Medal</Original>
+    <Korean>베트남 테트 전투 기념 훈장</Korean>
+</Key>
+<Key ID="STR_vn_mf_rvn_special_service_medal">
+    <Original>RVN Special Service Medal</Original>
+    <Korean>RVN 특수 서비스 훈장</Korean>
+</Key>
+<Key ID="STR_vn_mf_national_defense_service_medal">
+    <Original>National Defense Service Medal</Original>
+    <Korean>국가 방위 서비스 훈장</Korean>
+</Key>
+<Key ID="STR_vn_mf_distinguished_flying_cross">
+    <Original>Distinguished Flying Cross</Original>
+    <Korean>뛰어난 비행 십자 훈장</Korean>
+</Key>
+<Key ID="STR_vn_mf_army_commendation_medal">
+    <Original>Army Commendation Medal</Original>
+    <Korean>육군 표창 훈장</Korean>
+</Key>
+<Key ID="STR_vn_mf_air_force_good_conduct_medal">
+    <Original>Air Force Good Conduct Medal</Original>
+    <Korean>공군 양심 바르게 훈장</Korean>
+</Key>
+<Key ID="STR_vn_mf_air_force_cross">
+    <Original>Air Force Cross</Original>
+    <Korean>공군 십자 훈장</Korean>
+</Key>
+<Key ID="STR_vn_mf_special_operations_medal">
+    <Original>Special Operations Medal</Original>
+    <Korean>특수 작전 훈장</Korean>
+</Key>
+<Key ID="STR_vn_mf_army_presidential_unit_citation">
+    <Original>Army Presidential Unit Citation</Original>
+    <Korean>육군 대통령 부대 표창</Korean>
+</Key>
+<Key ID="STR_vn_mf_usaf_outstanding_unit_award">
+    <Original>USAF Outstanding Unit Award</Original>
+    <Korean>미국 공군 우수 부대 훈장</Korean>
+</Key>
+<Key ID="STR_vn_mf_meritorious_unit_citation">
+    <Original>Meritorious Unit Citation</Original>
+    <Korean>공로 부대 표창</Korean>
+</Key>
+<Key ID="STR_vn_mf_meritorious_service_medal">
+    <Original>Meritorious Service Medal</Original>
+    <Korean>공로 서비스 훈장</Korean>
+</Key>
+<Key ID="STR_vn_mf_joint_service_commendation_medal">
+    <Original>Joint Service Commendation Medal</Original>
+    <Korean>공동 서비스 표창 훈장</Korean>
+</Key>
+<Key ID="STR_vn_mf_legion_of_merit">
+    <Original>Legion of Merit</Original>
+    <Korean>공로 군단 훈장</Korean>
+</Key>
+<Key ID="STR_vn_mf_vietnam_service_medal">
+    <Original>Vietnam Service Medal</Original>
+    <Korean>베트남 서비스 훈장</Korean>
+</Key>
+<Key ID="STR_vn_mf_republic_of_vietnam_campaign_medal">
+    <Original>Republic of Vietnam Campaign Medal</Original>
+    <Korean>베트남 공화국 전투 훈장</Korean>
+</Key>
+<Key ID="STR_vn_mf_gulf_of_tonkin_vietnam_commemorative_medal">
+    <Original>Gulf of Tonkin Vietnam Commemorative Medal</Original>
+    <Korean>동침 베트남 기념 훈장</Korean>
+</Key>
+<Key ID="STR_vn_mf_navy_cross">
+    <Original>Navy Cross</Original>
+    <Korean>해군 십자 훈장</Korean>
+</Key>
+<Key ID="STR_vn_mf_rvn_training_service_medal">
+    <Original>RVN Training Service Medal</Original>
+    <Korean>RVN 훈련 서비스 훈장</Korean>
+</Key>
+<Key ID="STR_vn_mf_rvn_technical_service_medal">
+    <Original>RVN Technical Service Medal</Original>
+    <Korean>RVN 기술 서비스 훈장</Korean>
+</Key>
+<Key ID="STR_vn_mf_rvn_military_merit_first_republic_medal">
+    <Original>RVN Military Merit First Republic Medal</Original>
+    <Korean>RVN 군사 공로 제1공화국 훈장</Korean>
+</Key>
+<Key ID="STR_vn_mf_hud_interact">
+    <Original>Interact</Original>
+    <Korean>상호작용</Korean>
+</Key>
+<Key ID="STR_vn_mf_hud_toggledOff">
+    <Original>You toggled off the interaction overlay.</Original>
+    <Korean>상호작용 오버레이를 끔으로 설정했습니다.</Korean>
+</Key>
+<Key ID="STR_vn_mf_hud_toggledOn">
+    <Original>You toggled on the interaction overlay.</Original>
+    <Korean>상호 작용 오버레이를 켰습니다.</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_keybindings_interactionOverlay_toggle">
+    <Original>Toggle Interaction Overlay</Original>
+    <Korean>상호 작용 오버레이 전환</Korean>
+	</Key>
+  <Key ID="STR_vn_mf_taskRoster_Main_MikeForceDescription">
+    <Original>As special forces infantry, your team's role is to:&lt;br/&gt;- Sweep and clear areas of enemy&lt;br/&gt;- Secure and hold zones&lt;br/&gt;- Protect populations, logistics and supplies&lt;br/&gt;- Reinforce other teams&lt;br/&gt;Tasks&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_primary.paa'/&gt; Primary Tasks are shared by all teams.&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_secondary.paa'/&gt; Secondary Tasks are unique to your team.&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_support.paa'/&gt; Support Tasks are called by other teams in need of your help. You may also request their support, for example transport is provided for you by ACAV or Green Hornets.</Original>
+    <Korean>특수 부대 보병으로서, 팀의 역할은 다음과 같습니다:&lt;br/&gt;- 적의 지역을 청소하고 정리합니다.&lt;br/&gt;- 지역을 안전하게 보호하고 유지합니다.&lt;br/&gt;- 인구, 물류 및 보급품을 보호합니다.&lt;br/&gt;- 다른 팀을 지원하고 보강합니다.&lt;br/&gt;임무&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_primary.paa'/&gt; 기본 임무는 모든 팀이 공유합니다.&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_secondary.paa'/&gt; 보조 임무는 팀별로 고유합니다.&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_support.paa'/&gt; 지원 임무는 다른 팀에서 요청할 수 있습니다. 예를 들어, 교통 수단은 ACAV나 Green Hornets에서 제공됩니다.</Korean>
+  </Key>													   
+		 <Key ID="STR_vn_mf_taskRoster_Main_SpikeTeamDescription">
+    <Original>As special forces recon, your team's role is to:&lt;br/&gt;- Carry out reconnaissance to locate enemy infrastructure&lt;br/&gt;- Ambush and assault the enemy&lt;br/&gt;- Direct air and armour support onto enemy concentrations&lt;br/&gt;- Support other teams with reconnaissance and search and rescue&lt;br/&gt;Tasks&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_primary.paa'/&gt; Primary Tasks are shared by all teams. &lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_secondary.paa'/&gt; Secondary Tasks are unique to your team.&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_support.paa'/&gt; Support Tasks are called by other teams in need of your help. You may also request their support, for example transport is provided for you by ACAV or Green Hornets.</Original>
+    <Korean>특수부대 정찰병으로서, 팀의 역할은 다음과 같습니다:&lt;br/&gt;- 적의 인프라를 탐색하기 위한 정찰 수행&lt;br/&gt;- 적을 기습하고 공격하기&lt;br/&gt;- 공중 및 장갑 지원을 적 집중지로 직접 지시하기&lt;br/&gt;- 다른 팀에게 정찰 및 구조 작전 지원 제공&lt;br/&gt;임무&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_primary.paa'/&gt; 주요 임무는 모든 팀과 공유됩니다. &lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_secondary.paa'/&gt; 부수 임무는 팀에게만 적용됩니다.&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_support.paa'/&gt; 지원 임무는 다른 팀이 도움을 필요로 할 때 호출됩니다. ACAV나 Green Hornets에 의해 귀하에게 운송 등을 제공받을 수도 있습니다.</Korean>
+	</Key>
+	<Key ID="STR_vn_mf_taskRoster_Main_GreenHornetsTeamDescription">
+  <Original>As a Green Hornet, your team's role is to fly helicopters and jets to:&lt;br/&gt;- Insert and extract troops to their desired location&lt;br/&gt;- Carry out aerial reconnaissance to find enemy infrastructure&lt;br/&gt;- Support other teams with close air support&lt;br/&gt;- Deliver supplies to build new infrastructure&lt;br/&gt;- Engage enemy aircraft&lt;br/&gt;Tasks&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_primary.paa'/&gt; Primary Tasks are shared by all teams.&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_secondary.paa'/&gt; Secondary Tasks are unique to your team.&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_support.paa'/&gt; Support Tasks are called by other teams in need of your help. You may also request their support, for example search and rescue is provided for you by Spike Team.</Original>
+  <Korean>그린 호넷으로서, 팀의 역할은 헬리콥터와 전투기를 조종하여 다음과 같은 작업을 수행하는 것입니다:&lt;br/&gt;- 병력을 원하는 위치로 투입하고 이동시키기&lt;br/&gt;- 적의 인프라를 찾기 위한 공중 정찰 수행&lt;br/&gt;- 다른 팀에게 근접 지원을 제공하기&lt;br/&gt;- 새로운 인프라를 구축하기 위한 보급품 운반하기&lt;br/&gt;- 적 항공기와 전투하기&lt;br/&gt;임무&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_primary.paa'/&gt; 주요 임무는 모든 팀과 공유됩니다.&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_secondary.paa'/&gt; 부수 임무는 팀에게만 적용됩니다.&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_support.paa'/&gt; 지원 임무는 다른 팀이 도움을 필요로 할 때 호출됩니다. Spike Team에서는 예를 들어 정찰과 구조 작전을 제공해 드립니다.</Korean>
+</Key>																  
+			<Key ID="STR_vn_mf_taskRoster_Main_ArmouredCavalryDescription">
+  <Original>As Armoured Cavalry, your team's role is to operate trucks and tanks to:&lt;br/&gt;- Insert and extract troops to their desired location&lt;br/&gt;- Support other teams with heavy weapons vehicles&lt;br/&gt;- Deliver supplies and build new infrastructure&lt;br/&gt;- Engage enemy vehicles and armour&lt;br/&gt;Tasks&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_primary.paa'/&gt; Primary Tasks are shared by all teams. &lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_secondary.paa'/&gt; Secondary Tasks are unique to your team.&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_support.paa'/&gt; Support Tasks are called by other teams in need of your help. You may also request their support, for example vehicle recovery or convoy protection is provided for you by Green Hornets.</Original>
+  <Korean>장갑기병으로서, 팀의 역할은 트럭과 전차를 운영하여 다음과 같은 작업을 수행하는 것입니다:&lt;br/&gt;- 병력을 원하는 위치로 투입하고 이동시키기&lt;br/&gt;- 다른 팀에게 중장비 차량으로 지원하기&lt;br/&gt;- 보급품을 운반하고 새로운 인프라 구축하기&lt;br/&gt;- 적 차량과 장갑과 전투하기&lt;br/&gt;임무&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_primary.paa'/&gt; 주요 임무는 모든 팀과 공유됩니다.&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_secondary.paa'/&gt; 부수 임무는 팀에게만 적용됩니다.&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_support.paa'/&gt; 지원 임무는 다른 팀이 도움을 필요로 할 때 호출됩니다. 그린 호넷에서는 예를 들어 차량 인양이나 컨보이 보호 등을 제공해 드립니다.</Korean>
+	</Key>
+<Key ID="STR_vn_mf_taskRoster_Main_rolesHeaderName">
         <Original>Role</Original>
+        <Korean>역할</Korean>
       </Key>
       <Key ID="STR_vn_mf_taskRoster_Main_rolesHeaderTasks">
         <Original>Tasks</Original>
+        <Korean>작업</Korean>
       </Key>
       <Key ID="STR_vn_mf_taskRoster_Main_rolesHeaderPlayers">
         <Original>Players</Original>
+        <Korean>플레이어</Korean>
       </Key>
       <Key ID="STR_vn_mf_taskRoster_Main_medicTasks">
         <Original>Healing, Humanitarian</Original>
+        <Korean>치료, 인도주의</Korean>
       </Key>
       <Key ID="STR_vn_mf_taskRoster_Main_engineerTasks">
         <Original>Building</Original>
+        <Korean>건설</Korean>
       </Key>
       <Key ID="STR_vn_mf_taskRoster_Main_explosive_specialistTasks">
         <Original>Demolition, mining, de-mining</Original>
+        <Korean>파괴, 광업, 폭탄 제거</Korean>
       </Key>
       <Key ID="STR_vn_mf_taskRoster_Main_assaultpilotTasks">
         <Original>Flying gunship/ jet</Original>
+        <Korean>전투 헬기/제트기 비행</Korean>
       </Key>
       <Key ID="STR_vn_mf_taskRoster_Main_requestButton">
         <Original>REQUEST</Original>
+        <Korean>요청</Korean>
       </Key>
       <Key ID="STR_vn_mf_taskRoster_Main_teamWelcome">
         <Original>Welcome to:&lt;br/&gt;%1</Original>
+        <Korean>환영합니다: &lt;br/&gt;%1</Korean>
       </Key>
       <Key ID="STR_vn_mf_task_support_resupply_title">
         <Original>Resupply: Ammo</Original>
+        <Korean>보급: 탄약</Korean>
       </Key>
       <Key ID="STR_vn_mf_task_support_resupply_desc">
         <Original>Transport the supplies to the position provided by %1.</Original>
+        <Korean>보급품을 %1에서 지정한 위치로 운송합니다.</Korean>
       </Key>
       <Key ID="STR_vn_mf_task_support_resupply_deliver_crate_title">
         <Original>Deliver Resupply Crate</Original>
+        <Korean>보급품 상자 전달</Korean>
       </Key>
       <Key ID="STR_vn_mf_task_support_resupply_deliver_crate_desc">
         <Original>Deliver the resupply crate to the units that need it.</Original>
+        <Korean>보급품 상자를 필요한 부대로 전달합니다.</Korean>
       </Key>
       <Key ID="STR_vn_mf_task_support_resupply_requesterDesc">
         <Original>Request ammo supplies be dropped at a specific location.</Original>
-      </Key>
-      <Key ID="STR_vn_mf_task_support_resupply_medical_title">
+        <Korean>특정 위치에 탄약 보급품을 투하 요청합니다.</Korean>
+	</Key>
+<Key ID="STR_vn_mf_task_support_resupply_medical_title">
         <Original>Resupply: Medical</Original>
+        <Korean>보급: 의료</Korean>
       </Key>
       <Key ID="STR_vn_mf_task_support_resupply_medical_requesterDesc">
         <Original>Request medical supplies be dropped at a specific location.</Original>
+        <Korean>특정 위치에 의료품을 투하하도록 요청합니다.</Korean>
       </Key>
       <Key ID="STR_vn_mf_task_support_resupply_food_title">
         <Original>Resupply: Food</Original>
+        <Korean>보급: 식량</Korean>
       </Key>
       <Key ID="STR_vn_mf_task_support_resupply_food_requesterDesc">
         <Original>Request food supplies be dropped at a specific location.</Original>
+        <Korean>특정 위치에 식량을 투하하도록 요청합니다.</Korean>
       </Key>
       <Key ID="STR_vn_mf_task_support_resupply_building_materials_title">
         <Original>Resupply: Building Materials</Original>
+        <Korean>보급: 건축 자재</Korean>
       </Key>
       <Key ID="STR_vn_mf_task_support_resupply_building_materials_requesterDesc">
         <Original>Request building materials be dropped at a specific location.</Original>
+        <Korean>특정 위치에 건축 자재를 투하하도록 요청합니다.</Korean>
       </Key>
       <Key ID="STR_vn_mf_task_support_resupply_workshop_title">
         <Original>Resupply: Workshop</Original>
+        <Korean>보급: 작업장</Korean>
       </Key>
       <Key ID="STR_vn_mf_task_support_resupply_workshop_requesterDesc">
         <Original>Request workshop supplies be dropped at a specific location.</Original>
+        <Korean>특정 위치에 작업장 용품을 투하하도록 요청합니다.</Korean>
       </Key>
       <Key ID="STR_vn_mf_player_markers_vehicle_marker">
         <Original>%1 (%2%3)</Original>
+        <Korean>%1 (%2%3)</Korean>
       </Key>
       <Key ID="STR_vn_mf_add_sandbag">
         <Original>Add Sandbag</Original>
         <English>Add Sandbag</English>
+      <Korean>모래주머니 추가</Korean>
       </Key>
     </Container>
     <Container name="interaction_overlay">
       <Key ID="STR_vn_mf_overlay_duty_officer_name">
         <Original>Duty Officer</Original>
+        <Korean>임무 담당관</Korean>
       </Key>
       <Key ID="STR_vn_mf_overlay_duty_officer_description">
         <Original>Change teams or train in a role, such as engineer.</Original>
+        <Korean>팀 변경이나 엔지니어와 같은 역할로 훈련하세요.</Korean>
       </Key>
       <Key ID="STR_vn_mf_overlay_fast_travel_name">
         <Original>Fast Travel</Original>
+        <Korean>빠른 이동</Korean>
       </Key>
       <Key ID="STR_vn_mf_overlay_fast_travel_description">
         <Original>Teleport to the bases of each team</Original>
+        <Korean>각 팀의 기지로 순간이동합니다.</Korean>
       </Key>
       <Key ID="STR_vn_mf_overlay_supply_officer_name">
         <Original>Supply Officer</Original>
+        <Korean>보급관</Korean>
       </Key>
       <Key ID="STR_vn_mf_overlay_supply_officer_description">
         <Original>Request supplies, such as building supplies, food or ammunition.</Original>
+        <Korean>건설 자재, 식량 또는 탄약과 같은 보급품을 요청하세요.</Korean>
       </Key>
       <Key ID="STR_para_overlay_wreck_recovery_status">
         <Original>Wreck Recovery Status: %1</Original>
+        <Korean>잔해 회수 상태: %1</Korean>
       </Key>
       <Key ID="STR_para_overlay_wreck_recovery_time_left">
         <Original>Repairing: %1 (%2s remaining)</Original>
+        <Korean>수리 중: %1 (남은 시간 %2초)</Korean>
       </Key>
       <Key ID="STR_para_overlay_buildable_base">
         <Original>Base: %1</Original>
+        <Korean>기지: %1</Korean>
       </Key>
       <Key ID="STR_para_overlay_buildable_standalone">
         <Original>Standalone</Original>
+        <Korean>독립</Korean>
       </Key>
       <Key ID="STR_para_overlay_buildable_status">
         <Original>Status: %1</Original>
+        <Korean>상태: %1</Korean>
       </Key>
       <Key ID="STR_para_overlay_buildable_build_progress">
         <Original>Build Progress: %2%1</Original>
+        <Korean>건설 진행도: %2%1</Korean>
       </Key>
       <Key ID="STR_para_overlay_buildable_percentage_filled">
         <Original>Percentage Filled: %2%1</Original>
+        <Korean>채워진 비율: %2%1</Korean>
       </Key>
       <Key ID="STR_para_overlay_buildable_current_supplies">
         <Original>Current Supplies: %1</Original>
+        <Korean>현재 공급량: %1</Korean>
       </Key>
       <Key ID="STR_para_overlay_buildable_supplies_until_full">
         <Original>Supplies Until Full: %1</Original>
+        <Korean>최대 공급량까지 필요한 공급량: %1</Korean>
       </Key>
       <Key ID="STR_para_overlay_buildable_supply_capacity">
         <Original>Supply Capacity: %1</Original>
+        <Korean>공급 용량: %1</Korean>
       </Key>
       <Key ID="STR_para_overlay_buildable_lifetime">
         <Original>Time Until Decay: %1 hours %2 minutes</Original>
+        <Korean>부패까지 남은 시간: %1시간 %2분</Korean>
       </Key>
       <Key ID="STR_para_overlay_good">
         <Original>Good</Original>
         <English>Good</English>
+      <Korean>양호함</Korean>
       </Key>
       <Key ID="STR_para_overlay_decaying">
         <Original>Decaying</Original>
         <English>Decaying</English>
+      <Korean>부패 중</Korean>
       </Key>
       <Key ID="STR_para_overlay_ready">
         <Original>Ready</Original>
         <English>Ready</English>
+      <Korean>준비됨</Korean>
       </Key>
       <Key ID="STR_para_overlay_in_progress">
         <Original>In Progress</Original>
         <English>In Progress</English>
+      <Korean>진행 중</Korean>
       </Key>
     </Container>
     <Container name="notifications">
       <Key ID="STR_vn_mf_notification_title_training">
         <Original>Training</Original>
+        <Korean>훈련</Korean>
       </Key>
       <Key ID="STR_vn_mf_notification_title_vehicle_locked">
         <Original>Vehicle Locked</Original>
+        <Korean>차량 잠김</Korean>
       </Key>
       <Key ID="STR_vn_mf_notification_title_new_support_request">
         <Original>New Support Request</Original>
+        <Korean>새로운 지원 요청</Korean>
       </Key>
       <Key ID="STR_vn_mf_notification_title_zone_completed">
         <Original>Zone Completed</Original>
+        <Korean>지역 완료</Korean>
       </Key>
       <Key ID="STR_vn_mf_notification_title_support_transport">
         <Original>Squad Transport</Original>
+        <Korean>분대 이동</Korean>
       </Key>
       <Key ID="STR_vn_mf_notification_desc_support_transport_all_onboard">
         <Original>All Players Onboard</Original>
+        <Korean>모든 플레이어 탑승 완료</Korean>
       </Key>
       <Key ID="STR_vn_mf_notification_desc_support_transport_players_dead">
         <Original>All Players Dead</Original>
+        <Korean>모든 플레이어 사망</Korean>
       </Key>
       <Key ID="STR_vn_mf_notification_desc_support_transport_too_close">
         <Original>Drop-off Too Close</Original>
+        <Korean>하차 지점이 너무 가까움</Korean>
       </Key>
       <Key ID="STR_vn_mf_notification_desc_support_transport_wrong_location">
         <Original>Wrong Location</Original>
+        <Korean>잘못된 위치</Korean>
       </Key>
       <Key ID="STR_vn_mf_notification_desc_support_transport_complete">
         <Original>Transport Complete</Original>
+        <Korean>이동 완료</Korean>
       </Key>
       <Key ID="STR_vn_mf_notification_desc_support_task_created">
         <Original>Support Task Created</Original>
+        <Korean>지원 과제 생성됨</Korean>
       </Key>
       <Key ID="STR_vn_mf_notification_title_counter_attack">
         <Original>Counter-attack</Original>
         <English>Counter-attack</English>
+        <Korean>반격</Korean>
       </Key>
       <Key ID="STR_vn_mf_notification_desc_counter_attack_preparing">
         <Original>The enemy will counter-attack in %2 minutes</Original>
         <English>The enemy will counter-attack in %2 minutes</English>
+     <Korean>적이 %2분 후에 반격합니다</Korean>
       </Key>
       <Key ID="STR_vn_mf_notification_desc_counter_attack_imminent">
         <Original>Enemy counter-attack is imminent!</Original>
         <English>Enemy counter-attack is imminent!</English>
+      <Korean>적의 반격이 임박했습니다!</Korean>
       </Key>
       <Key ID="STR_vn_mf_notification_title_base_attack">
         <Original>FOB Attack</Original>
         <English>FOB Attack</English>
+      <Korean>FOB 공격</Korean>
       </Key>
       <Key ID="STR_vn_mf_notification_desc_base_attack_preparing">
         <Original>The enemy will attack an FOB in %2 minutes</Original>
         <English>The enemy will attack an FOB in %2 minutes</English>
+      <Korean>적이 %2분 후에 FOB를 공격합니다</Korean>
       </Key>
       <Key ID="STR_vn_mf_notification_desc_base_attack_imminent">
         <Original>Enemy attack on FOB is imminent!</Original>
         <English>Enemy attack on FOB is imminent!</English>
-      </Key>
-      <Key ID="STR_vn_mf_notification_desc_counter_attack_shortened">
-        <Original>All critical tasks completed. Enemy counter attack in %2 minutes.</Original>
-        <English>All critical tasks completed. Enemy counter attack in %2 minutes.</English>
-      </Key>
-      <Key ID="STR_vn_mf_notification_desc_counter_attack_lost">
-        <Original>The enemy counter-attack was successful. Zone %1 has been lost.</Original>
-        <English>The enemy counter-attack was successful. Zone %1 has been lost.</English>
-      </Key>
-      <Key ID="STR_vn_mf_notification_desc_no_sandbag">
-        <Original>No sandbags in inventory</Original>
-        <English>No sandbags in inventory</English>
-      </Key>
-      <Key ID="STR_vn_mf_notification_desc_sandbags_not_allowed">
-        <Original>Sandbags cannot be used on this building</Original>
-        <English>Sandbags cannot be used on this building</English>
-      </Key>
-      <Key ID="STR_para_build_cantresupplyunbuiltbuilding">
-        <Original>You can't resupply an unbuilt building</Original>
-        <English>You can't resupply an unbuilt building</English>
-      </Key>
-      <Key ID="STR_vn_mf_notification_title_empty_food_item">
-        <Original>Empty Food Item</Original>
-        <English>Empty Food Item</English>
-      </Key>
-      <Key ID="STR_vn_mf_notification_desc_empty_food_item">
-        <Original>The container is empty</Original>
-        <English>The container is empty</English>
-      </Key>
-      <Key ID="STR_vn_mf_notification_title_team_full">
-        <Original>This team is full</Original>
-        <English>This team is full</English>
-      </Key>
-      <Key ID="STR_vn_mf_notification_desc_team_full">
-        <Original>Try choosing another team</Original>
-        <English>Try choosing another team</English>
-      </Key>
-    </Container>
-    <Container name="building">
-      <Key ID="STR_para_building_position">
-        <Original>Position</Original>
-        <English>Position</English>
-      </Key>
-      <Key ID="STR_para_building_rotation">
-        <Original>Rotation</Original>
-        <English>Rotation</English>
-      </Key>
-      <Key ID="STR_para_building_height">
-        <Original>Height</Original>
-        <English>Height</English>
-      </Key>
-      <Key ID="STR_para_building_hint_header">
-        <Original>Building Placement</Original>
-        <English>Building Placement</English>
-      </Key>
-      <Key ID="STR_para_building_hint_body">
-        <Original>&lt;t color='#23aa50'&gt;[LMB]/[RMB]&lt;/t&gt; to cycle placement mode.&lt;br/&gt;&lt;br/&gt;Building can be placed with the 'build' action when the building is green. Buildings must not be colliding, and must be placed on a surface.</Original>
-        <English>&lt;t color='#23aa50'&gt;[LMB]/[RMB]&lt;/t&gt; to cycle placement mode.&lt;br/&gt;&lt;br/&gt;Building can be placed with the 'build' action when the building is green. Buildings must not be colliding, and must be placed on a surface.</English>
-      </Key>
-      <Key ID="STR_para_building_placing_in_progress">
-        <Original>Placing Building</Original>
-        <English>Placing Building</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_condition_hasRank">
-        <Original>Has Rank</Original>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_condition_isEngineer">
-        <Original>Is an Engineer</Original>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_condition_rnFoot">
-        <Original>On Foot</Original>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_condition_inRestrictedZone">
-        <Original>Restricted Zone</Original>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_ui_costs">
-        <Original>Costs</Original>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_per_hour">
-        <Original>per hour</Original>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_total_capacity">
-        <Original>total capacity</Original>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_ui_pageAbrev">
-        <Original>p.</Original>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_ui_build">
-        <Original>Build</Original>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_ui_nextPage">
-        <Original>Next page</Original>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_ui_previousPage">
-        <Original>Previous page</Original>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_ui_title">
-        <Original>Building Menu</Original>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_conditions">
-        <Original>Conditions</Original>
-      </Key>
-      <Key ID="STR_vn_mf_keybindings_selector">
-        <Original>Wheel Menu</Original>
-      </Key>
-      <Key ID="STR_vn_mf_keybindings_debug_monitor">
-        <Original>Toggle Debug Monitor</Original>
-      </Key>
-      <Key ID="STR_vn_mf_keybindings_task_roster">
-        <Original>Task Roster</Original>
-      </Key>
-      <Key ID="STR_vn_mf_keybindings_build_mode">
-        <Original>Building Mode</Original>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category">
-        <Original>Category:</Original>
-        <English>Category:</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_search">
-        <Original>Search:</Original>
-        <English>Search:</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_showLocked">
-        <Original>Show Locked:</Original>
-        <English>Show Locked:</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_search">
-        <Original>Search</Original>
-        <English>Search</English>
-      </Key>
+     <Korean>적의 FOB 공격이 임박했습니다!</Korean>
+	 </Key>
+		<Key ID="STR_vn_mf_notification_desc_counter_attack_shortened">
+    <Original>All critical tasks completed. Enemy counter attack in %2 minutes.</Original>
+    <English>All critical tasks completed. Enemy counter attack in %2 minutes.</English>
+    <Korean>모든 중요한 작업이 완료되었습니다. 적 대규모 반격이 %2 분 후에 시작됩니다.</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_notification_desc_counter_attack_lost">
+    <Original>The enemy counter-attack was successful. Zone %1 has been lost.</Original>
+    <English>The enemy counter-attack was successful. Zone %1 has been lost.</English>
+    <Korean>적의 반격이 성공했습니다. %1 지역이 잃어버렸습니다.</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_notification_desc_no_sandbag">
+    <Original>No sandbags in inventory</Original>
+    <English>No sandbags in inventory</English>
+    <Korean>인벤토리에 샌드백이 없습니다.</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_notification_desc_sandbags_not_allowed">
+    <Original>Sandbags cannot be used on this building</Original>
+    <English>Sandbags cannot be used on this building</English>
+    <Korean>이 건물에는 샌드백을 사용할 수 없습니다.</Korean>
+  </Key>
+  <Key ID="STR_para_build_cantresupplyunbuiltbuilding">
+    <Original>You can't resupply an unbuilt building</Original>
+    <English>You can't resupply an unbuilt building</English>
+    <Korean>미완성된 건물에 보급을 할 수 없습니다.</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_notification_title_empty_food_item">
+    <Original>Empty Food Item</Original>
+    <English>Empty Food Item</English>
+    <Korean>비어있는 식량품</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_notification_desc_empty_food_item">
+    <Original>The container is empty</Original>
+    <English>The container is empty</English>
+    <Korean>컨테이너가 비어 있습니다.</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_notification_title_team_full">
+    <Original>This team is full</Original>
+    <English>This team is full</English>
+    <Korean>이 팀은 가득 찼습니다.</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_notification_desc_team_full">
+    <Original>Try choosing another team</Original>
+    <English>Try choosing another team</English>
+    <Korean>다른 팀을 선택해보세요.</Korean>
+	</Key>
+	</Container>
+    <Container name="building">			
+	<Key ID="STR_para_building_position">
+    <Original>Position</Original>
+    <English>Position</English>
+    <Korean>위치</Korean>
+  </Key>
+  <Key ID="STR_para_building_rotation">
+    <Original>Rotation</Original>
+    <English>Rotation</English>
+    <Korean>회전</Korean>	
+</Key>	
+<Key ID="STR_para_building_height">
+    <Original>Height</Original>
+    <English>Height</English>
+    <Korean>높이</Korean>
+</Key>
+<Key ID="STR_para_building_hint_header">
+    <Original>Building Placement</Original>
+    <English>Building Placement</English>
+    <Korean>건물 배치</Korean>
+</Key>
+<Key ID="STR_para_building_hint_body">
+    <Original>&lt;t color='#23aa50'&gt;[LMB]/[RMB]&lt;/t&gt; to cycle placement mode.&lt;br/&gt;&lt;br/&gt;Building can be placed with the 'build' action when the building is green. Buildings must not be colliding, and must be placed on a surface.</Original>
+    <English>&lt;t color='#23aa50'&gt;[LMB]/[RMB]&lt;/t&gt; to cycle placement mode.&lt;br/&gt;&lt;br/&gt;Building can be placed with the 'build' action when the building is green. Buildings must not be colliding, and must be placed on a surface.</English>
+    <Korean>&lt;t color='#23aa50'&gt;[LMB]/[RMB]&lt;/t&gt;를 눌러 배치 모드를 변경합니다.&lt;br/&gt;&lt;br/&gt;건물은 녹색 상태일 때 '건설' 동작으로 배치할 수 있습니다. 건물은 충돌하지 않도록 배치되어야 하며 표면 위에 배치되어야 합니다.</Korean>
+</Key>
+<Key ID="STR_para_building_placing_in_progress">
+    <Original>Placing Building</Original>
+    <English>Placing Building</English>
+    <Korean>건물 배치 중</Korean>
+</Key>
+<Key ID="STR_vn_mf_buildingMenu_condition_hasRank">
+    <Original>Has Rank</Original>
+    <Korean>랭크 보유</Korean>
+</Key>
+<Key ID="STR_vn_mf_buildingMenu_condition_isEngineer">
+    <Original>Is an Engineer</Original>
+    <Korean>기술병인가요?</Korean>
+</Key>
+<Key ID="STR_vn_mf_buildingMenu_condition_rnFoot">
+    <Original>On Foot</Original>
+    <Korean>보행 중</Korean>
+</Key>
+<Key ID="STR_vn_mf_buildingMenu_condition_inRestrictedZone">
+    <Original>Restricted Zone</Original>
+    <Korean>제한 구역</Korean>
+</Key>
+<Key ID="STR_vn_mf_buildingMenu_ui_costs">
+    <Original>Costs</Original>
+    <Korean>비용</Korean>
+</Key>
+<Key ID="STR_vn_mf_buildingMenu_per_hour">
+    <Original>per hour</Original>
+    <Korean>시간당</Korean>
+</Key>
+<Key ID="STR_vn_mf_buildingMenu_total_capacity">
+    <Original>total capacity</Original>
+    <Korean>총 수용력</Korean>
+</Key>
+<Key ID="STR_vn_mf_buildingMenu_ui_pageAbrev">
+    <Original>p.</Original>
+    <Korean>페이지</Korean>
+</Key>
+<Key ID="STR_vn_mf_buildingMenu_ui_build">
+    <Original>Build</Original>
+    <Korean>건설</Korean>
+</Key>
+<Key ID="STR_vn_mf_buildingMenu_ui_nextPage">
+    <Original>Next page</Original>
+    <Korean>다음 페이지</Korean>
+</Key>
+<Key ID="STR_vn_mf_buildingMenu_ui_previousPage">
+    <Original>Previous page</Original>
+    <Korean>이전 페이지</Korean>
+</Key>
+<Key ID="STR_vn_mf_buildingMenu_ui_title">
+    <Original>Building Menu</Original>
+    <Korean>건물 메뉴</Korean>
+</Key>
+<Key ID="STR_vn_mf_buildingMenu_conditions">
+    <Original>Conditions</Original>
+    <Korean>조건</Korean>
+</Key>
+<Key ID="STR_vn_mf_keybindings_selector">
+    <Original>Wheel Menu</Original>
+    <Korean>휠 메뉴</Korean>
+</Key>
+<Key ID="STR_vn_mf_keybindings_debug_monitor">
+    <Original>Toggle Debug Monitor</Original>
+    <Korean>디버그 모니터 토글</Korean>
+</Key>
+<Key ID="STR_vn_mf_keybindings_task_roster">
+    <Original>Task Roster</Original>
+    <Korean>태스크 로스터</Korean>
+</Key>
+<Key ID="STR_vn_mf_keybindings_build_mode">
+    <Original>Building Mode</Original>
+    <Korean>건설 모드</Korean>
+</Key>
+<Key ID="STR_vn_mf_buildingMenu_category">
+    <Original>Category:</Original>
+    <English>Category:</English>
+    <Korean>카테고리:</Korean>
+</Key>
+<Key ID="STR_vn_mf_buildingMenu_search">
+    <Original>Search:</Original>
+    <English>Search:</English>
+    <Korean>검색:</Korean>
+</Key>
+<Key ID="STR_vn_mf_buildingMenu_showLocked">
+    <Original>Show Locked:</Original>
+    <English>Show Locked:</English>
+    <Korean>잠김 표시:</Korean>
+</Key>
+<Key ID="STR_vn_mf_buildingMenu_category_search">
+    <Original>Search</Original>
+    <English>Search</English>
+    <Korean>검색</Korean>
+</Key>
 
-      <Key ID="STR_vn_mf_buildingMenu_condition_inACav">
-        <Original>In ACav</Original>
-        <English>In ACav</English>
-      </Key>
-    </Container>
-    <Container name="params">
-      <Key ID="STR_vn_mf_param_wipe_save">
+<Key ID="STR_vn_mf_buildingMenu_condition_inACav">
+    <Original>In ACav</Original>
+    <English>In ACav</English>
+    <Korean>In ACav</Korean>
+</Key>
+</Container>		
+<Container name="params">
+    <Key ID="STR_vn_mf_param_wipe_save">
         <Original>==== Delete Save ====</Original>
         <English>==== Delete Save ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_wipe_save_desc">
+        <Korean>==== 저장 파일 삭제 ====</Korean>
+		</Key>
+				<Key ID="STR_vn_mf_param_wipe_save_desc">
         <Original>[WARNING] Deletes your saved game. This will delete all progress (ranks and map)!</Original>
         <English>[WARNING] Deletes your saved game. This will delete all progress (ranks and map)!</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_enable_ranks">
+      <Korean>[경고] 저장된 게임이 삭제됩니다. 모든 진행 상황(랭크 및 맵)이 삭제됩니다!</Korean>
+        </Key>	
+		<Key ID="STR_vn_mf_param_enable_ranks">
         <Original>==== Enable Rank System [Under Development] ====</Original>
+        <Korean>==== 랭크 시스템 활성화 [개발 중] ====</Korean>
         <English>==== Enable Rank System [Under Development] ====</English>
       </Key>
-      <Key ID="STR_vn_mf_param_hard_ai_limit">
+			<Key ID="STR_vn_mf_param_hard_ai_limit">
         <Original>==== Hard AI Limit ====</Original>
+        <Korean>==== 어려운 AI 한도 ====</Korean>
         <English>==== Hard AI Limit ====</English>
       </Key>
-      <Key ID="STR_vn_mf_param_hard_ai_limit_desc">
-        <Original>[High performance impact] The maximum number of AI the mission will ever have simultaneously.</Original>
-        <English>[High performance impact] The maximum number of AI the mission will ever have simultaneously.</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_ai_scaling">
-        <Original>==== AI Quantity Scaling ====</Original>
-        <English>==== AI Quantity Scaling ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_ai_scaling_desc">
-        <Original>[High performance impact] Global AI scaling. Higher is more AI for everything, lower is less.</Original>
-        <English>[High performance impact] Global AI scaling. Higher is more AI for everything, lower is less.</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_enable_ranks_desc">
+			<Key ID="STR_vn_mf_param_hard_ai_limit_desc">
+    <Original>[High performance impact] The maximum number of AI the mission will ever have simultaneously.</Original>
+    <English>[High performance impact] The maximum number of AI the mission will ever have simultaneously.</English>
+      <Korean>[고성능 영향] 미션에서 동시에 가질 수 있는 AI의 최대 수입니다.</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_ai_scaling">
+    <Original>==== AI Quantity Scaling ====</Original>
+    <English>==== AI Quantity Scaling ====</English>
+      <Korean>==== AI 수량 스케일링 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_ai_scaling_desc">
+    <Original>[High performance impact] Global AI scaling. Higher is more AI for everything, lower is less.</Original>
+    <English>[High performance impact] Global AI scaling. Higher is more AI for everything, lower is less.</English>
+      <Korean>[고성능 영향] 전체 AI 스케일링입니다. 높을수록 모든 것에 대해 더 많은 AI가 생성되며, 낮을수록 적습니다.</Korean>
+		</Key>										  
+<Key ID="STR_vn_mf_param_enable_ranks_desc">
         <Original>Restrict vehicles/weapons based on rank. Recommended to reduce griefing.</Original>
         <English>Restrict vehicles/weapons based on rank. Recommended to reduce griefing.</English>
+        <Korean>계급에 따라 차량/무기 제한. 그리핑을 줄이기 위해 권장됩니다.</Korean>
       </Key>
       <Key ID="STR_vn_mf_param_allow_map_markers">
         <Original>==== Enable Map Markers ====</Original>
         <English>==== Enable Map Markers ====</English>
+        <Korean>==== 맵 마커 활성화 ====</Korean>
       </Key>
       <Key ID="STR_vn_mf_param_allow_map_markers_desc">
         <Original>Toggle player map markers</Original>
         <English>Toggle player map markers</English>
+        <Korean>플레이어 맵 마커 전환</Korean>
       </Key>
       <Key ID="STR_vn_mf_dawn_length">
         <Original>==== Dawn Length ====</Original>
         <English>==== Dawn Length ====</English>
+        <Korean>==== 새벽 길이 ====</Korean>
       </Key>
       <Key ID="STR_vn_mf_day_length">
         <Original>==== Day Length ====</Original>
         <English>==== Day Length ====</English>
+        <Korean>==== 주간 길이 ====</Korean>
       </Key>
       <Key ID="STR_vn_mf_dusk_length">
         <Original>==== Dusk Length ====</Original>
         <English>==== Dusk Length ====</English>
+        <Korean>==== 황혼 길이 ====</Korean>
       </Key>
       <Key ID="STR_vn_mf_night_length">
         <Original>==== Night Length ==== </Original>
         <English>==== Night Length ====</English>
+        <Korean>==== 야간 길이 ====</Korean>
       </Key>
       <Key ID="STR_vn_mf_buildables_require_vehicles">
         <Original>==== Resupply buildings require vehicles ====</Original>
         <English>==== Resupply buildings require vehicles ====</English>
+        <Korean>==== 보급 건물에 차량 필요 ====</Korean>
       </Key>
       <Key ID="STR_vn_mf_buildables_require_vehicles_desc">
         <Original>Should vehicles be required to build resupply buildings [Not Advised].</Original>
         <English>Should vehicles be required to build resupply buildings [Not Advised].</English>
+        <Korean>보급 건물을 지을 때 차량이 필요한지 여부 [권장되지 않음].</Korean>
       </Key>
       <Key ID="STR_vn_mf_ai_quantity">
         <Original>==== AI Quantity ====</Original>
         <English>==== AI Quantity ====</English>
+        <Korean>==== AI 수량 ====</Korean>
       </Key>
       <Key ID="STR_vn_mf_always_allow_withstand">
         <Original>==== Allow Withstanding ====</Original>
         <English>==== Allow Withstanding ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_always_allow_withstand_desc">
-        <Original>Enable withstand with friendlies nearby</Original>
-        <English>Enable withstand with friendlies nearby</English>
-      </Key>
-      <Key ID="STR_vn_mf_building_sandbag_value">
-        <Original>==== Sandbag Supplies Quantity ====</Original>
-        <English>==== Sandbag Supplies Quantity ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_building_sandbag_value_desc">
-        <Original>The building supplies value of sandbags carried in the inventory.</Original>
-        <English>The building supplies value of sandbags carried in the inventory.</English>
-      </Key>
-      <Key ID="STR_vn_mf_advanced_revive">
-        <Original>==== Advanced Revive ====</Original>
-        <English>==== Advanced Revive ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_advanced_revive_desc">
-        <Original>Enable Advanced Revive (Recommended)</Original>
-        <English>Enable Advanced Revive (Recommended)</English>
-      </Key>
+        <Korean>==== 저항 허용 ====</Korean>																						
+      </Key>																									 
+		<Key ID="STR_vn_mf_always_allow_withstand_desc">
+  <Original>Enable withstand with friendlies nearby</Original>
+  <English>Enable withstand with friendlies nearby</English>
+  <Korean>주변 아군이 있는 상태에서 견딜 수 있도록 활성화합니다.</Korean>
+</Key>
+<Key ID="STR_vn_mf_building_sandbag_value">
+  <Original>==== Sandbag Supplies Quantity ====</Original>
+  <English>==== Sandbag Supplies Quantity ====</English>
+  <Korean>==== 모래주머니 공급량 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_building_sandbag_value_desc">
+  <Original>The building supplies value of sandbags carried in the inventory.</Original>
+  <English>The building supplies value of sandbags carried in the inventory.</English>
+  <Korean>인벤토리에 들고 있는 모래주머니의 건설 자재 값.</Korean>
+</Key>
+<Key ID="STR_vn_mf_advanced_revive">
+  <Original>==== Advanced Revive ====</Original>
+  <English>==== Advanced Revive ====</English>
+  <Korean>==== 고급 부활 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_advanced_revive_desc">
+  <Original>Enable Advanced Revive (Recommended)</Original>
+  <English>Enable Advanced Revive (Recommended)</English>
+  <Korean>고급 부활을 활성화합니다 (권장).</Korean>
+</Key>
 
-      <Key ID="STR_vn_mf_param_snake_header">
-        <Original>======== Snake Settings ========</Original>
-        <English>======== Snake Settings ========</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_snake_bite_chance">
-        <Original>==== Bite Chance ====</Original>
-        <English>==== Bite Chance ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_snake_bite_chance_desc">
-        <Original>Percentage chance of being bitten</Original>
-        <English>Percentage chance of being bitten</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_snake_bite_distance">
-        <Original>==== Bite Distance ====</Original>
-        <English>==== Bite Distance ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_snake_bite_distance_desc">
-        <Original>How close a snake must be to bite a player</Original>
-        <English>How close a snake must be to bite a player</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_snake_bite_frequency">
-        <Original>==== Bite Frequency ====</Original>
-        <English>==== Bite Frequency ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_snake_bite_frequency_desc">
-        <Original>Minimum Amount of time between bites</Original>
-        <English>Minimum Amount of time between bites</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_snake_bite_extra_time">
-        <Original>==== Ramp up Time ====</Original>
-        <English>==== Ramp up Time ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_snake_bite_extra_time_desc">
-        <Original>Amount of time with a reduced chance of being bitten. Starts counting after the bite frequency time has elapsed.</Original>
-        <English>Amount of time with a reduced chance of being bitten. Starts counting after the bite frequency time has elapsed.</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_teams_header">
-        <Original>======== Team Settings ========</Original>
-        <English>======== Team Settings ========</English>
-      </Key>
-      <Key ID="STR_vn_mf_max_players_acav">
-        <Original>==== Max players on ACAV ====</Original>
-        <English>==== Max players on ACAV ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_max_players_greenhornets">
-        <Original>==== Max players on Green Hornets ====</Original>
-        <English>==== Max players on Green Hornets ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_max_players_mikeforce">
-        <Original>==== Max players on Mike Force ====</Original>
-        <English>==== Max players on Mike Force ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_max_players_spiketeam">
-        <Original>==== Max players on Spike Team ====</Original>
-        <English>==== Max players on Spike Team ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_hunger_loss_rate">
-        <Original>==== Hunger Gain Rate ====</Original>
-        <English>==== Hunger Gain Rate ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_hunger_loss_rate_desc">
-        <Original>The percentage of the hunger bar lost every 10 seconds</Original>
-        <English>The percentage of the hunger bar lost every 10 seconds</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_thirst_loss_rate">
-        <Original>==== Thirst Gain Rate ====</Original>
-        <English>==== Thirst Gain Rate ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_thirst_loss_rate_desc">
-        <Original>The percentage of the thirst bar lost every 10 seconds</Original>
-        <English>The percentage of the thirst bar lost every 10 seconds</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_medical_header">
-        <Original>======== Medical Settings ========</Original>
-        <English>======== Medical Settings ========</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_headshot_kill">
-        <Original>==== Headshots Kill ====</Original>
-        <English>==== Headshots Kill ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_headshot_kill_desc">
-        <Original>Toggle if headshots can cause instadeath</Original>
-        <English>Toggle if headshots can cause instadeath</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_bleedout_time">
-        <Original>==== Bleedout Time ====</Original>
-        <English>==== Bleedout Time ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_bleedout_time_desc">
-        <Original>The time it takes in seconds for a wounded player to die</Original>
-        <English>The time it takes in seconds for a wounded player to die</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_withstand_percentage">
-        <Original>==== Withstand Percentage ====</Original>
-        <English>==== Withstand Percentage ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_withstand_percentage_desc">
-        <Original>Percentage of bleedout time that must pass before withstanding is allowed</Original>
-        <English>Percentage of bleedout time that must pass before withstanding is allowed</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_remove_bandage_item">
-        <Original>==== Remove Bandage Item ====</Original>
-        <English>==== Remove Bandage Item ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_remove_bandage_item_desc">
-        <Original>Remove the item used to stabilize a patient</Original>
-        <English>Remove the item used to stabilize a patient</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_remove_revive_item">
-        <Original>==== Remove Revive Item ====</Original>
-        <English>==== Remove Revive Item ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_remove_revive_item_desc">
-        <Original>Remove the item used to revive a patient</Original>
-        <English>Remove the item used to revive a patient</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_revive_requirement">
-        <Original>==== Require Medic to Revive ====</Original>
-        <English>==== Require Medic to Revive ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_respawn_delay">
-        <Original>==== Respawn Delay ====</Original>
-        <English>==== Respawn Delay ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_enable_air_support">
-        <Original>==== Enable RTO Air Support ====</Original>
-        <English>==== Enable RTO Air Support  ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_enable_air_support_desc">
-        <Original>Unique supports only will disable support from fast air and rotary wing units</Original>
-        <English>Unique supports only will disable support from fast air and rotary wing units</English>
-      </Key>
-      <Key ID="STR_vn_mf_enable_arty_support">
-        <Original>==== Enable RTO Artillery Support ====</Original>
-        <English>==== Enable RTO Artillery Support ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_enable_stamina">
-        <Original>==== Enable Stamina ====</Original>
-        <English>==== Enable Stamina ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_set_stamina">
-        <Original>==== Stamina Setting ====</Original>
-        <English>==== Stamina Setting ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_cleanup_header">
-        <Original>======== Cleanup Settings ========</Original>
-        <English>======== Cleanup Settings ========</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_cleanup_min_player_distance">
-        <Original>==== Cleanup Distance ====</Original>
-        <English>==== Cleanup Distance ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_cleanup_min_player_distance_desc">
-        <Original>Prevents deletion for certain objects, if a player is within X metres</Original>
-        <English>Prevents deletion for certain objects, if a player is within X metres</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_cleanup_max_bodies">
-        <Original>==== Max Bodies ====</Original>
-        <English>==== Max Bodies ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_cleanup_placed_gear">
-        <Original>==== Cleanup Placed Equipment ====</Original>
-        <English>==== Cleanup Placed Equipment ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_cleanup_placed_gear_desc">
-        <Original>Enables deleting equipment placed on the ground by players.</Original>
-        <English>Enables deleting equipment placed on the ground by players.</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_cleanup_placed_gear_lifetime">
-        <Original>==== Placed equipment minimum lifetime ====</Original>
-        <English>==== Placed equipment minimum lifetime ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_cleanup_dropped_gear">
-        <Original>==== Cleanup Dropped Equipment ====</Original>
-        <English>==== Cleanup Dropped Equipment ====</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_cleanup_dropped_gear_desc">
-        <Original>Minimum amount of time before placed equipment is deleted.</Original>
-        <English>Minimum amount of time before placed equipment is deleted.</English>
-      </Key>
-      <Key ID="STR_vn_mf_param_cleanup_dropped_gear_lifetime">
-        <Original>==== Dropped equipment minimum lifetime ====</Original>
-        <English>==== Dropped equipment minimum lifetime ====</English>
-      </Key>
-    </Container>
-    <Container name="voteMenu">
-      <Key ID="STR_vn_mf_voteMenu_submitVote">
-        <Original>Submit Vote</Original>
-        <English>Submit Vote</English>
-      </Key>
-      <Key ID="STR_vn_mf_voteMenu_selectOption">
-        <Original>Please select an option:</Original>
-        <English>Please select an option:</English>
-      </Key>
-      <Key ID="STR_vn_mf_voteMenu_voteInitBody">
-        <Original>A vote has been initalized. For more details please open the menu.</Original>
-        <English>A vote has been initalized. For more details please open the menu.</English>
-      </Key>
-      <Key ID="STR_vn_mf_voteMenu_open">
-        <Original>Open</Original>
-        <English>Open</English>
-      </Key>
-      <Key ID="STR_vn_mf_voteMenu_casted">
-        <Original>Vote Casted</Original>
-        <English>Vote Casted</English>
-      </Key>
-      <Key ID="STR_vn_mf_voteMenu_votedFor">
-        <Original>You voted:</Original>
-        <English>You voted:</English>
-      </Key>
-      <Key ID="STR_vn_mf_voteMenu_selectOptionPrompt">
-        <Original>You must select an option!</Original>
-        <English>You must select an option!</English>
-      </Key>
-    </Container>
-    <Container name="buildingCategories">
-      <Key ID="STR_vn_mf_buildingMenu_category_uncategorized">
-        <Original>Uncategorized</Original>
-        <English>Uncategorized</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_all">
-        <Original>+All</Original>
-        <English>+All</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_recent">
-        <Original>+Recents</Original>
-        <English>+Recents</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_favorites">
-        <Original>+Favorites</Original>
-        <English>+Favorites</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_base_starter">
-        <Original>+Feature: HQ</Original>
-        <English>+Feature: HQ</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_radio">
-        <Original>+Feature: Music</Original>
-        <English>+Feature: Music</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_respawn">
-        <Original>+Feature: Respawn</Original>
-        <English>+Feature: Respawn</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_wreck_recovery">
-        <Original>+Feature: Wreck Recovery</Original>
-        <English>+Feature: Wreck Recovery</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_maintenance">
-        <Original>+Feature: Maintenance</Original>
-        <English>+Feature: Maintenance</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_vehicle_spawning">
-        <Original>+Feature: Vehicle Creation</Original>
-        <English>+Feature: Vehicle Creation</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_supply_depot">
-        <Original>+Feature: Building Supply Depot</Original>
-        <English>+Feature: Building Supply Depot</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_functional">
-        <Original>Special Buildings</Original>
-        <English>Special Buildings</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_us">
-        <Original>U.S</Original>
-        <English>U.S</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_buildings">
-        <Original>Buildings</Original>
-        <English>Buildings</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_medical">
-        <Original>Medical</Original>
-        <English>Medical</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_tents">
-        <Original>Tents</Original>
-        <English>Tents</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_towers">
-        <Original>Towers</Original>
-        <English>Towers</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_sanitation">
-        <Original>Sanitation</Original>
-        <English>Sanitation</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_resupply">
-        <Original>Resupply</Original>
-        <English>Resupply</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_bridges">
-        <Original>Bridges</Original>
-        <English>Bridges</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_trees">
-        <Original>Trees</Original>
-        <English>Trees</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_bunkers">
-        <Original>Bunkers</Original>
-        <English>Bunkers</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_fortifications">
-        <Original>Fortifications</Original>
-        <English>Fortifications</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_trenches">
-        <Original>Trenches</Original>
-        <English>Trenches</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_helipads">
-        <Original>Helipads</Original>
-        <English>Helipads</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_shelters">
-        <Original>Camp (PAVN)</Original>
-        <English>Camp (PAVN)</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_nv">
-        <Original>North Vietnamese</Original>
-        <English>North Vietnamese</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_anyone">
-        <Original>Anyone Can Build</Original>
-        <English>Anyone Can Build</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_nonACAV">
-        <Original>Non-ACAV</Original>
-        <English>Non-ACAV</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_caves">
-        <Original>Caves and Rocks</Original>
-        <English>Caves and Rocks</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_decorative">
-        <Original>Misc</Original>
-        <English>Misc</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_lighting">
-        <Original>Lighting</Original>
-        <English>Lighting</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_platforms">
-        <Original>Platforms</Original>
-        <English>Platforms</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_fences">
-        <Original>Fences and walls</Original>
-        <English>Fences and walls</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_antennae">
-        <Original>Antennae</Original>
-        <English>Antennae</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_hootches">
-        <Original>Shacks</Original>
-        <English>Shacks</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_hangars">
-        <Original>Hangars</Original>
-        <English>Hangars</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_arvn">
-        <Original>ARVN</Original>
-        <English>ARVN</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_barracks">
-        <Original>Barracks</Original>
-        <English>Barracks</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_walls">
-        <Original>Walls</Original>
-        <English>Walls</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_water">
-        <Original>Water</Original>
-        <English>Water</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_piers">
-        <Original>Piers</Original>
-        <English>Piers</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_spiderholes">
-        <Original>Spiderholes</Original>
-        <English>Spiderholes</English>
-      </Key>
-      <Key ID="STR_vn_mf_buildingMenu_category_storage">
-        <Original>Storage</Original>
-        <English>Storage</English>
-      </Key>
-    </Container>
-    <Container name="supplies">
+<Key ID="STR_vn_mf_param_snake_header">
+  <Original>======== Snake Settings ========</Original>
+  <English>======== Snake Settings ========</English>
+  <Korean>======== 뱀 설정 ========</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_snake_bite_chance">
+  <Original>==== Bite Chance ====</Original>
+  <English>==== Bite Chance ====</English>
+  <Korean>==== 물림 확률 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_snake_bite_chance_desc">
+  <Original>Percentage chance of being bitten</Original>
+  <English>Percentage chance of being bitten</English>
+  <Korean>물림 발생 확률의 백분율</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_snake_bite_distance">
+  <Original>==== Bite Distance ====</Original>
+  <English>==== Bite Distance ====</English>
+  <Korean>==== 물림 거리 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_snake_bite_distance_desc">
+  <Original>How close a snake must be to bite a player</Original>
+  <English>How close a snake must be to bite a player</English>
+  <Korean>뱀이 플레이어를 물기 위해 가져야 하는 거리</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_snake_bite_frequency">
+  <Original>==== Bite Frequency ====</Original>
+  <English>==== Bite Frequency ====</English>
+  <Korean>==== 물림 빈도 ====</Korean>
+</Key>									   
+				<Key ID="STR_vn_mf_param_snake_bite_frequency_desc">
+  <Original>Minimum Amount of time between bites</Original>
+  <English>Minimum Amount of time between bites</English>
+  <Korean>물림 간격의 최소 시간</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_snake_bite_extra_time">
+  <Original>==== Ramp up Time ====</Original>
+  <English>==== Ramp up Time ====</English>
+  <Korean>==== 증가 시간 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_snake_bite_extra_time_desc">
+  <Original>Amount of time with a reduced chance of being bitten. Starts counting after the bite frequency time has elapsed.</Original>
+  <English>Amount of time with a reduced chance of being bitten. Starts counting after the bite frequency time has elapsed.</English>
+  <Korean>물림 확률이 감소한 상태로 지속되는 시간입니다. 물림 빈도 시간이 지난 후에 계산이 시작됩니다.</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_teams_header">
+  <Original>======== Team Settings ========</Original>
+  <English>======== Team Settings ========</English>
+  <Korean>======== 팀 설정 ========</Korean>
+</Key>
+<Key ID="STR_vn_mf_max_players_acav">
+  <Original>==== Max players on ACAV ====</Original>
+  <English>==== Max players on ACAV ====</English>
+  <Korean>==== ACAV의 최대 플레이어 수 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_max_players_greenhornets">
+  <Original>==== Max players on Green Hornets ====</Original>
+  <English>==== Max players on Green Hornets ====</English>
+  <Korean>==== 그린 호넷의 최대 플레이어 수 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_max_players_mikeforce">
+  <Original>==== Max players on Mike Force ====</Original>
+  <English>==== Max players on Mike Force ====</English>
+  <Korean>==== 마이크 포스의 최대 플레이어 수 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_max_players_spiketeam">
+  <Original>==== Max players on Spike Team ====</Original>
+  <English>==== Max players on Spike Team ====</English>
+  <Korean>==== 스파이크 팀의 최대 플레이어 수 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_hunger_loss_rate">
+  <Original>==== Hunger Gain Rate ====</Original>
+  <English>==== Hunger Gain Rate ====</English>
+  <Korean>==== 배고픔 증가 비율 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_hunger_loss_rate_desc">
+  <Original>The percentage of the hunger bar lost every 10 seconds</Original>
+  <English>The percentage of the hunger bar lost every 10 seconds</English>
+  <Korean>10초마다 소모되는 배고픔 바의 백분율</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_thirst_loss_rate">
+  <Original>==== Thirst Gain Rate ====</Original>
+  <English>==== Thirst Gain Rate ====</English>
+  <Korean>==== 갈증 증가 비율 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_thirst_loss_rate_desc">
+  <Original>The percentage of the thirst bar lost every 10 seconds</Original>
+  <English>The percentage of the thirst bar lost every 10 seconds</English>
+  <Korean>10초마다 소모되는 갈증 바의 백분율</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_medical_header">
+  <Original>======== Medical Settings ========</Original>
+  <English>======== Medical Settings ========</English>
+  <Korean>======== 의료 설정 ========</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_headshot_kill">
+  <Original>==== Headshots Kill ====</Original>
+  <English>==== Headshots Kill ====</English>
+  <Korean>==== 헤드샷으로 사망 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_headshot_kill_desc">
+  <Original>Toggle if headshots can cause instadeath</Original>
+  <English>Toggle if headshots can cause instadeath</English>
+  <Korean>헤드샷이 즉사를 유발할 수 있는지 토글</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_bleedout_time">
+  <Original>==== Bleedout Time ====</Original>
+  <English>==== Bleedout Time ====</English>
+  <Korean>==== 출혈 사망 시간 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_bleedout_time_desc">
+  <Original>The time it takes in seconds for a wounded player to die</Original>
+  <English>The time it takes in seconds for a wounded player to die</English>
+  <Korean>부상당한 플레이어가 사망하기까지 걸리는 시간(초)</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_withstand_percentage">
+  <Original>==== Withstand Percentage ====</Original>
+  <English>==== Withstand Percentage ====</English>
+  <Korean>==== 견딜 확률 비율 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_withstand_percentage_desc">
+  <Original>Percentage of bleedout time that must pass before withstanding is allowed</Original>
+  <English>Percentage of bleedout time that must pass before withstanding is allowed</English>
+  <Korean>견딜 수 있도록 허용되기 전에 흐른 출혈 사망 시간의 백분율</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_remove_bandage_item">
+  <Original>==== Remove Bandage Item ====</Original>
+  <English>==== Remove Bandage Item ====</English>
+  <Korean>==== 붕대 아이템 제거 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_remove_bandage_item_desc">
+  <Original>Remove the item used to stabilize a patient</Original>
+  <English>Remove the item used to stabilize a patient</English>
+  <Korean>환자를 안정시키는 데 사용되는 아이템 제거</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_remove_revive_item">
+  <Original>==== Remove Revive Item ====</Original>
+  <English>==== Remove Revive Item ====</English>
+  <Korean>==== 소생 아이템 제거 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_remove_revive_item_desc">
+  <Original>Remove the item used to revive a patient</Original>
+  <English>Remove the item used to revive a patient</English>
+  <Korean>환자를 소생시키는 데 사용되는 아이템 제거</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_revive_requirement">
+  <Original>==== Require Medic to Revive ====</Original>
+  <English>==== Require Medic to Revive ====</English>
+  <Korean>==== 의무병으로부터 소생 요구 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_respawn_delay">
+  <Original>==== Respawn Delay ====</Original>
+  <English>==== Respawn Delay ====</English>
+  <Korean>==== 재생 대기 시간 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_enable_air_support">
+  <Original>==== Enable RTO Air Support ====</Original>
+  <English>==== Enable RTO Air Support  ====</English>
+  <Korean>==== RTO 공중 지원 활성화 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_enable_air_support_desc">
+  <Original>Unique supports only will disable support from fast air and rotary wing units</Original>
+  <English>Unique supports only will disable support from fast air and rotary wing units</English>
+  <Korean>유니크한 지원만 활성화하면 고속 기체와 회전날개 기체로부터의 지원이 비활성화됩니다</Korean>
+</Key>
+<Key ID="STR_vn_mf_enable_arty_support">
+  <Original>==== Enable RTO Artillery Support ====</Original>
+  <English>==== Enable RTO Artillery Support ====</English>
+  <Korean>==== RTO 포격 지원 활성화 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_enable_stamina">
+  <Original>==== Enable Stamina ====</Original>
+  <English>==== Enable Stamina ====</English>
+  <Korean>==== 스태미너 활성화 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_set_stamina">
+  <Original>==== Stamina Setting ====</Original>
+  <English>==== Stamina Setting ====</English>
+  <Korean>==== 스태미너 설정 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_cleanup_header">
+  <Original>======== Cleanup Settings ========</Original>
+  <English>======== Cleanup Settings ========</English>
+  <Korean>======== 정리 설정 ========</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_cleanup_min_player_distance">
+  <Original>==== Cleanup Distance ====</Original>
+  <English>==== Cleanup Distance ====</English>
+  <Korean>==== 정리 거리 ====</Korean>
+</Key>
+	<Key ID="STR_vn_mf_param_cleanup_min_player_distance_desc">
+  <Original>Prevents deletion for certain objects, if a player is within X metres</Original>
+  <English>Prevents deletion for certain objects, if a player is within X metres</English>
+  <Korean>X 미터 이내에 플레이어가 있으면 특정 객체를 삭제하지 않도록 설정합니다.</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_cleanup_max_bodies">
+  <Original>==== Max Bodies ====</Original>
+  <English>==== Max Bodies ====</English>
+  <Korean>==== 최대 시체 수 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_cleanup_placed_gear">
+  <Original>==== Cleanup Placed Equipment ====</Original>
+  <English>==== Cleanup Placed Equipment ====</English>
+  <Korean>==== 배치된 장비 정리 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_cleanup_placed_gear_desc">
+  <Original>Enables deleting equipment placed on the ground by players.</Original>
+  <English>Enables deleting equipment placed on the ground by players.</English>
+  <Korean>플레이어가 땅에 배치한 장비를 삭제할 수 있도록 설정합니다.</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_cleanup_placed_gear_lifetime">
+  <Original>==== Placed equipment minimum lifetime ====</Original>
+  <English>==== Placed equipment minimum lifetime ====</English>
+  <Korean>==== 배치된 장비 최소 수명 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_cleanup_dropped_gear">
+  <Original>==== Cleanup Dropped Equipment ====</Original>
+  <English>==== Cleanup Dropped Equipment ====</English>
+  <Korean>==== 드롭된 장비 정리 ====</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_cleanup_dropped_gear_desc">
+  <Original>Minimum amount of time before placed equipment is deleted.</Original>
+  <English>Minimum amount of time before placed equipment is deleted.</English>
+  <Korean>장비가 삭제되기 전의 최소 시간입니다.</Korean>
+</Key>
+<Key ID="STR_vn_mf_param_cleanup_dropped_gear_lifetime">
+  <Original>==== Dropped equipment minimum lifetime ====</Original>
+  <English>==== Dropped equipment minimum lifetime ====</English>
+  <Korean>==== 드롭된 장비 최소 수명 ====</Korean>
+</Key>
+</Container>		
+<Container name="voteMenu">
+  <Key ID="STR_vn_mf_voteMenu_submitVote">
+    <Original>Submit Vote</Original>
+    <English>Submit Vote</English>
+    <Korean>투표 제출</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_voteMenu_selectOption">
+    <Original>Please select an option:</Original>
+    <English>Please select an option:</English>
+    <Korean>옵션을 선택해주세요:</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_voteMenu_voteInitBody">
+    <Original>A vote has been initalized. For more details please open the menu.</Original>
+    <English>A vote has been initalized. For more details please open the menu.</English>
+    <Korean>투표가 시작되었습니다. 자세한 내용은 메뉴를 열어 확인하세요.</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_voteMenu_open">
+    <Original>Open</Original>
+    <English>Open</English>
+    <Korean>열기</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_voteMenu_casted">
+    <Original>Vote Casted</Original>
+    <English>Vote Casted</English>
+    <Korean>투표 완료</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_voteMenu_votedFor">
+    <Original>You voted:</Original>
+    <English>You voted:</English>
+    <Korean>투표한 항목:</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_voteMenu_selectOptionPrompt">
+    <Original>You must select an option!</Original>
+    <English>You must select an option!</English>
+    <Korean>옵션을 선택해야 합니다!</Korean>
+  </Key>								 
+		</Container>
+		<Container name="buildingCategories">
+  <Key ID="STR_vn_mf_buildingMenu_category_uncategorized">
+    <Original>Uncategorized</Original>
+    <English>Uncategorized</English>
+    <Korean>미분류</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_all">
+    <Original>+All</Original>
+    <English>+All</English>
+    <Korean>+모두</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_recent">
+    <Original>+Recents</Original>
+    <English>+Recents</English>
+    <Korean>+최근</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_favorites">
+    <Original>+Favorites</Original>
+    <English>+Favorites</English>
+    <Korean>+즐겨찾기</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_base_starter">
+    <Original>+Feature: HQ</Original>
+    <English>+Feature: HQ</English>
+    <Korean>+기능: 본부</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_radio">
+    <Original>+Feature: Music</Original>
+    <English>+Feature: Music</English>
+    <Korean>+기능: 음악</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_respawn">
+    <Original>+Feature: Respawn</Original>
+    <English>+Feature: Respawn</English>
+    <Korean>+기능: 리스폰</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_wreck_recovery">
+    <Original>+Feature: Wreck Recovery</Original>
+    <English>+Feature: Wreck Recovery</English>
+    <Korean>+기능: 잔해 회수</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_maintenance">
+    <Original>+Feature: Maintenance</Original>
+    <English>+Feature: Maintenance</English>
+    <Korean>+기능: 유지보수</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_vehicle_spawning">
+    <Original>+Feature: Vehicle Creation</Original>
+    <English>+Feature: Vehicle Creation</English>
+    <Korean>+기능: 차량 생성</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_supply_depot">
+    <Original>+Feature: Building Supply Depot</Original>
+    <English>+Feature: Building Supply Depot</English>
+    <Korean>+기능: 건물 공급 창고</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_functional">
+    <Original>Special Buildings</Original>
+    <English>Special Buildings</English>
+    <Korean>특수 건물</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_us">
+    <Original>U.S</Original>
+    <English>U.S</English>
+    <Korean>미국</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_buildings">
+    <Original>Buildings</Original>
+    <English>Buildings</English>
+    <Korean>건물</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_medical">
+    <Original>Medical</Original>
+    <English>Medical</English>
+    <Korean>의료</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_tents">
+    <Original>Tents</Original>
+    <English>Tents</English>
+    <Korean>텐트</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_towers">
+    <Original>Towers</Original>
+    <English>Towers</English>
+    <Korean>탑</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_sanitation">
+    <Original>Sanitation</Original>
+    <English>Sanitation</English>
+    <Korean>위생</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_resupply">
+    <Original>Resupply</Original>
+    <English>Resupply</English>
+    <Korean>보급</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_bridges">
+    <Original>Bridges</Original>
+    <English>Bridges</English>
+    <Korean>다리</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_trees">
+    <Original>Trees</Original>
+    <English>Trees</English>
+    <Korean>나무</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_bunkers">
+    <Original>Bunkers</Original>
+    <English>Bunkers</English>
+    <Korean>벙커</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_fortifications">
+    <Original>Fortifications</Original>
+    <English>Fortifications</English>
+    <Korean>보루</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_trenches">
+    <Original>Trenches</Original>
+    <English>Trenches</English>
+    <Korean>참호</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_helipads">
+    <Original>Helipads</Original>
+    <English>Helipads</English>
+    <Korean>헬리패드</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_shelters">
+    <Original>Camp (PAVN)</Original>
+    <English>Camp (PAVN)</English>
+    <Korean>진영 (PAVN)</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_nv">
+    <Original>North Vietnamese</Original>
+    <English>North Vietnamese</English>
+    <Korean>북 베트남</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_anyone">
+    <Original>Anyone Can Build</Original>
+    <English>Anyone Can Build</English>
+    <Korean>누구나 건설 가능</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_nonACAV">
+    <Original>Non-ACAV</Original>
+    <English>Non-ACAV</English>
+    <Korean>ACAV 아님</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_caves">
+    <Original>Caves and Rocks</Original>
+    <English>Caves and Rocks</English>
+    <Korean>동굴과 바위</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_decorative">
+    <Original>Misc</Original>
+    <English>Misc</English>
+    <Korean>기타</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_lighting">
+    <Original>Lighting</Original>
+    <English>Lighting</English>
+    <Korean>조명</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_platforms">
+    <Original>Platforms</Original>
+    <English>Platforms</English>
+    <Korean>플랫폼</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_fences">
+    <Original>Fences and walls</Original>
+    <English>Fences and walls</English>
+    <Korean>울타리와 벽</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_antennae">
+    <Original>Antennae</Original>
+    <English>Antennae</English>
+    <Korean>안테나</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_hootches">
+    <Original>Shacks</Original>
+    <English>Shacks</English>
+    <Korean>헛간</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_hangars">
+    <Original>Hangars</Original>
+    <English>Hangars</English>
+    <Korean>격납고</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_arvn">
+    <Original>ARVN</Original>
+    <English>ARVN</English>
+    <Korean>ARVN</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_barracks">
+    <Original>Barracks</Original>
+    <English>Barracks</English>
+    <Korean>병영</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_walls">
+    <Original>Walls</Original>
+    <English>Walls</English>
+    <Korean>벽</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_water">
+    <Original>Water</Original>
+    <English>Water</English>
+    <Korean>물</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_piers">
+    <Original>Piers</Original>
+    <English>Piers</English>
+    <Korean>부두</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_spiderholes">
+    <Original>Spiderholes</Original>
+    <English>Spiderholes</English>
+    <Korean>거미구멍</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_buildingMenu_category_storage">
+    <Original>Storage</Original>
+    <English>Storage</English>
+    <Korean>저장</Korean>
+  </Key>
+</Container>
+<Container name="supplies">
       <Key ID="STR_vn_mf_light_ammo_supplies">
         <Original>Light Ammo Supplies</Original>
+        <Korean>경량 탄약 보급품</Korean>
       </Key>
       <Key ID="STR_vn_mf_support_ammo_supplies">
         <Original>Support Ammo Supplies</Original>
+        <Korean>보조 탄약 보급품</Korean>
       </Key>
       <Key ID="STR_vn_mf_explosives_supplies">
         <Original>Explosives Supplies</Original>
+        <Korean>폭발물 보급품</Korean>
       </Key>
       <Key ID="STR_vn_mf_building_supplies_crate">
         <Original>Building Supplies (Small)</Original>
+        <Korean>건설 재료 (소형)</Korean>
       </Key>
       <Key ID="STR_vn_mf_building_supplies_container">
         <Original>Building Supplies (Large)</Original>
+        <Korean>건설 재료 (대형)</Korean>
       </Key>
       <Key ID="STR_vn_mf_sandbag_supplies">
         <Original>Sandbags and Tools</Original>
         <English>Sandbags and Tools</English>
+        <Korean>샌드백과 도구</Korean>
       </Key>
       <Key ID="STR_vn_mf_supplies">
         <Original>Supplies</Original>
+        <Korean>보급품</Korean>
       </Key>
       <Key ID="STR_vn_mf_workshop_supplies">
         <Original>Workshop Supplies</Original>
+        <Korean>작업실 보급품</Korean>
       </Key>
       <Key ID="STR_vn_mf_food_supplies">
         <Original>Food Supplies</Original>
+        <Korean>식량 보급품</Korean>
       </Key>
       <Key ID="STR_vn_mf_medical_supplies">
         <Original>Medical Supplies</Original>
+        <Korean>의료 보급품</Korean>
       </Key>
       <Key ID="STR_vn_mf_support_supplies">
         <Original>Support Supplies</Original>
         <English>Support Supplies</English>
+        <Korean>지원 보급품</Korean>
       </Key>
-	    <Key ID="STR_vn_mf_vehicle_supplies">
+      <Key ID="STR_vn_mf_vehicle_supplies">
         <Original>Vehicle Supplies</Original>
         <English>Vehicle Supplies</English>
+        <Korean>차량 보급품</Korean>
       </Key>
-	    <Key ID="STR_vn_mf_building_supplies">
+      <Key ID="STR_vn_mf_building_supplies">
         <Original>Construction Supplies</Original>
         <English>Construction Supplies</English>
+        <Korean>건설 보급품</Korean>
       </Key>
       <Key ID="STR_vn_mf_ammo_supplies">
         <Original>Ammunition</Original>
         <English>Ammunition</English>
+        <Korean>탄약</Korean>
       </Key>
     </Container>
-  </Package>
-  <Package name="PARADIGM">
+		</Package>	
+	<Package name="PARADIGM">
     <Container name="default">
     </Container>
     <Container name="notifications">
-      <Key ID="STR_para_notification_building_non_functional_title">
-        <Original>Building Non-Functional</Original>
-      </Key>
-      <Key ID="STR_para_notification_building_non_functional_desc">
-        <Original>This building isn't functioning right now.</Original>
-      </Key>
-      <Key ID="STR_para_notification_insufficient_resources_title">
-        <Original>Insufficient Resources</Original>
-      </Key>
-      <Key ID="STR_para_notification_insufficient_resources_desc">
-        <Original>The building doesn't have enough resources to do that.</Original>
-      </Key>
-      <Key ID="STR_para_notification_spawn_position_blocked_title">
-        <Original>Area Blocked</Original>
-      </Key>
-      <Key ID="STR_para_notification_spawn_position_blocked_desc">
-        <Original>Clear the area where the vehicle will be created.</Original>
-      </Key>
-      <Key ID="STR_para_notification_vehicle_repaired_title">
-        <Original>Vehicle Repaired</Original>
-      </Key>
-      <Key ID="STR_para_notification_vehicle_repaired_desc">
-        <Original>%1 supplies consumed.</Original>
-      </Key>
-      <Key ID="STR_para_notification_vehicle_refueled_title">
-        <Original>Vehicle Refueled</Original>
-      </Key>
-      <Key ID="STR_para_notification_vehicle_refueled_desc">
-        <Original>%1 supplies consumed.</Original>
-      </Key>
-      <Key ID="STR_para_notification_vehicle_rearmed_title">
-        <Original>Vehicle Rearmed</Original>
-      </Key>
-      <Key ID="STR_para_notification_vehicle_rearmed_desc">
-        <Original>%1 supplies consumed.</Original>
-      </Key>
-      <Key ID="STR_para_notification_vehicle_spawn_cooldown_title">
-        <Original>Vehicle Created Recently</Original>
-      </Key>
-      <Key ID="STR_para_notification_vehicle_spawn_cooldown_desc">
-        <Original>The next vehicle will be available in %1 minutes.</Original>
-      </Key>
-      <Key ID="STR_para_notification_vehicle_spawn_incorrect">
-        <Original>This vehicle can not be spawned here!</Original>
-      </Key>
-      <Key ID="STR_para_notification_building_placement_incorrect">
-        <Original>The building is incorrectly placed for this vehicle to spawn.</Original>
-      </Key>
+        <Key ID="STR_para_notification_building_non_functional_title">
+            <Original>Building Non-Functional</Original>
+            <Korean>건물 기능 정지</Korean>
+        </Key>
+        <Key ID="STR_para_notification_building_non_functional_desc">
+            <Original>This building isn't functioning right now.</Original>
+            <Korean>현재 이 건물은 작동하지 않습니다.</Korean>
+        </Key>
+        <Key ID="STR_para_notification_insufficient_resources_title">
+            <Original>Insufficient Resources</Original>
+            <Korean>자원 부족</Korean>
+        </Key>
+        <Key ID="STR_para_notification_insufficient_resources_desc">
+            <Original>The building doesn't have enough resources to do that.</Original>
+            <Korean>이 건물에 충분한 자원이 없습니다.</Korean>
+        </Key>
+	<Key ID="STR_para_notification_spawn_position_blocked_title">
+    <Original>Area Blocked</Original>
+    <Korean>지역이 차단되었습니다</Korean>
+</Key>
+<Key ID="STR_para_notification_spawn_position_blocked_desc">
+    <Original>Clear the area where the vehicle will be created.</Original>
+    <Korean>차량이 생성될 지역을 비워주세요.</Korean>
+</Key>
+<Key ID="STR_para_notification_vehicle_repaired_title">
+    <Original>Vehicle Repaired</Original>
+    <Korean>차량 수리 완료</Korean>
+</Key>
+<Key ID="STR_para_notification_vehicle_repaired_desc">
+    <Original>%1 supplies consumed.</Original>
+    <Korean>%1 자원이 소모되었습니다.</Korean>
+</Key>
+<Key ID="STR_para_notification_vehicle_refueled_title">
+    <Original>Vehicle Refueled</Original>
+    <Korean>차량 주유 완료</Korean>
+</Key>
+<Key ID="STR_para_notification_vehicle_refueled_desc">
+    <Original>%1 supplies consumed.</Original>
+    <Korean>%1 자원이 소모되었습니다.</Korean>
+</Key>
+<Key ID="STR_para_notification_vehicle_rearmed_title">
+    <Original>Vehicle Rearmed</Original>
+    <Korean>차량 리필 완료</Korean>
+</Key>
+<Key ID="STR_para_notification_vehicle_rearmed_desc">
+    <Original>%1 supplies consumed.</Original>
+    <Korean>%1 자원이 소모되었습니다.</Korean>
+</Key>
+<Key ID="STR_para_notification_vehicle_spawn_cooldown_title">
+    <Original>Vehicle Created Recently</Original>
+    <Korean>최근에 생성된 차량</Korean>
+</Key>
+<Key ID="STR_para_notification_vehicle_spawn_cooldown_desc">
+    <Original>The next vehicle will be available in %1 minutes.</Original>
+    <Korean>다음 차량은 %1분 후에 사용 가능합니다.</Korean>
+</Key>
+<Key ID="STR_para_notification_vehicle_spawn_incorrect">
+    <Original>This vehicle can not be spawned here!</Original>
+    <Korean>이 차량은 여기에서 생성할 수 없습니다!</Korean>
+</Key>
+<Key ID="STR_para_notification_building_placement_incorrect">
+    <Original>The building is incorrectly placed for this vehicle to spawn.</Original>
+    <Korean>이 건물은 차량 생성을 위해 잘못 배치되었습니다.</Korean>
+</Key>
+									 
     </Container>
     <Container name="basebuilding">
-      <Key ID="STR_para_bf_maintenance_repair_action">
-        <Original>Repair Vehicle Using Supplies</Original>
-      </Key>
-      <Key ID="STR_para_bf_maintenance_refuel_action">
-        <Original>Refuel Vehicle Using Supplies</Original>
-      </Key>
-      <Key ID="STR_para_bf_maintenance_rearm_action">
-        <Original>Rearm Vehicle Using Supplies</Original>
-      </Key>
-			<Key ID="STR_vn_mf_vic_car">
-        <Original>Cars</Original>
-      </Key>
-			<Key ID="STR_vn_mf_vic_mule">
-        <Original>Mules</Original>
-      </Key>
-      <Key ID="STR_vn_mf_vic_truck">
-        <Original>Trucks</Original>
-      </Key>
-			<Key ID="STR_vn_mf_vic_armour">
-        <Original>Armoured Vehicles</Original>
-      </Key>
-      <Key ID="STR_vn_mf_vic_static">
-        <Original>Statics</Original>
-      </Key>
-			<Key ID="STR_vn_mf_vic_supply">
-        <Original>Supplies</Original>
-      </Key>
-      <Key ID="STR_vn_mf_vic_boat_light">
-        <Original>Light Boats</Original>
-      </Key>
-			<Key ID="STR_vn_mf_vic_boat_heavy">
-        <Original>Heavy Boats</Original>
-      </Key>
+        <Key ID="STR_para_bf_maintenance_repair_action">
+            <Original>Repair Vehicle Using Supplies</Original>
+            <Korean>자원을 사용하여 차량 수리</Korean>
+        </Key>
+        <Key ID="STR_para_bf_maintenance_refuel_action">
+            <Original>Refuel Vehicle Using Supplies</Original>
+            <Korean>자원을 사용하여 차량 주유</Korean>
+        </Key>
+        <Key ID="STR_para_bf_maintenance_rearm_action">
+            <Original>Rearm Vehicle Using Supplies</Original>
+            <Korean>자원을 사용하여 차량 리필</Korean>
+        </Key>
+        <Key ID="STR_vn_mf_vic_car">
+    <Original>Cars</Original>
+    <Korean>자동차</Korean>
+</Key>
+<Key ID="STR_vn_mf_vic_mule">
+    <Original>Mules</Original>
+    <Korean>뮬</Korean>
+</Key>
+<Key ID="STR_vn_mf_vic_truck">
+    <Original>Trucks</Original>
+    <Korean>트럭</Korean>
+</Key>
+<Key ID="STR_vn_mf_vic_armour">
+    <Original>Armoured Vehicles</Original>
+    <Korean>장갑 차량</Korean>
+</Key>
+<Key ID="STR_vn_mf_vic_static">
+    <Original>Statics</Original>
+    <Korean>고정식 장비</Korean>
+</Key>
+<Key ID="STR_vn_mf_vic_supply">
+    <Original>Supplies</Original>
+    <Korean>보급품</Korean>
+</Key>
+<Key ID="STR_vn_mf_vic_boat_light">
+    <Original>Light Boats</Original>
+    <Korean>경선</Korean>
+</Key>
+<Key ID="STR_vn_mf_vic_boat_heavy">
+    <Original>Heavy Boats</Original>
+    <Korean>대형 보트</Korean>
+</Key>
+
     </Container>
     <Container name="supplies">
-      <Key ID="STR_para_supply_buildingsupplies">
-        <Original>Building Supplies</Original>
-      </Key>
-      <Key ID="STR_para_supply_workshopsupplies">
-        <Original>Workshop Supplies</Original>
-      </Key>
+        <Key ID="STR_para_supply_buildingsupplies">
+            <Original>Building Supplies</Original>
+            <Korean>건설 자재</Korean>
+        </Key>
+        <Key ID="STR_para_supply_workshopsupplies">
+            <Original>Workshop Supplies</Original>
+            <Korean>작업장 자재</Korean>
+        </Key>
     </Container>
     <Container name="KeybindingsMenu">
-      <Key ID="STR_vn_mf_keybindings_title">
-        <Original>Mikeforce Keybindings</Original>
-      </Key>
-      <Key ID="STR_vn_mf_keybindings_header_action">
-        <Original>Action</Original>
-      </Key>
-      <Key ID="STR_vn_mf_keybindings_header_keybind">
-        <Original>Keybind</Original>
-      </Key>
-      <Key ID="STR_vn_mf_keybindings_reset">
-        <Original>Reset to default</Original>
-      </Key>
-      <Key ID="STR_vn_mf_keybindings_confirm">
-        <Original>Confirm</Original>
-      </Key>
-      <Key ID="STR_vn_mf_keybindings_cancel">
-        <Original>Cancel</Original>
-      </Key>
-    </Container>
-    <Container name="Zone_Name_Altis">
-      <Key ID="STR_vn_mf_zone_sofia">
+        <Key ID="STR_vn_mf_keybindings_title">
+            <Original>Mikeforce Keybindings</Original>
+            <Korean>마이크포스 단축키 설정</Korean>
+        </Key>
+        <Key ID="STR_vn_mf_keybindings_header_action">
+            <Original>Action</Original>
+            <Korean>액션</Korean>
+        </Key>
+        <Key ID="STR_vn_mf_keybindings_header_keybind">
+            <Original>Keybind</Original>
+            <Korean>단축키 설정</Korean>
+        </Key>
+        <Key ID="STR_vn_mf_keybindings_reset">
+            <Original>Reset to default</Original>
+            <Korean>기본값으로 재설정</Korean>
+        </Key>
+        <Key ID="STR_vn_mf_keybindings_confirm">
+            <Original>Confirm</Original>
+            <Korean>확인</Korean>
+			</Key>
+		<Key ID="STR_vn_mf_keybindings_cancel">
+    <Original>Cancel</Original>
+    <Korean>취소</Korean>
+</Key>
+</Container>
+<Container name="Zone_Name_Altis">
+    <Key ID="STR_vn_mf_zone_sofia">
         <Original>Sofia</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_paros">
+        <Korean>소피아</Korean>
+    </Key>
+    <Key ID="STR_vn_mf_zone_paros">
         <Original>Paros</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_kalochori">
+        <Korean>파로스</Korean>
+    </Key>
+    <Key ID="STR_vn_mf_zone_kalochori">
         <Original>Kalochori</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_rodopoli">
+        <Korean>칼로호리</Korean>
+    </Key>
+    <Key ID="STR_vn_mf_zone_rodopoli">
         <Original>Rodopoli</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_charkia">
+        <Korean>로도폴리</Korean>
+    </Key>
+    <Key ID="STR_vn_mf_zone_charkia">
         <Original>Charkia</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_anthrakia">
+        <Korean>차르키아</Korean>
+    </Key>
+    <Key ID="STR_vn_mf_zone_anthrakia">
         <Original>Anthrakia</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_telos">
+        <Korean>안트라키아</Korean>
+    </Key>
+    <Key ID="STR_vn_mf_zone_telos">
         <Original>Telos</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_gravia">
+        <Korean>텔로스</Korean>
+    </Key>
+    <Key ID="STR_vn_mf_zone_gravia">
         <Original>Gravia</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_athira">
+        <Korean>그라비아</Korean>
+    </Key>
+    <Key ID="STR_vn_mf_zone_athira">
         <Original>Athira</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_frini">
+        <Korean>아티라</Korean>
+    </Key>
+    <Key ID="STR_vn_mf_zone_frini">
         <Original>Frini</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_dorida">
+        <Korean>프리니</Korean>
+    </Key>
+    <Key ID="STR_vn_mf_zone_dorida">
         <Original>Dorida</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_pyrgos">
+        <Korean>도리다</Korean>
+    </Key>
+    <Key ID="STR_vn_mf_zone_pyrgos">
         <Original>Pyrgos</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_chalkeia">
+        <Korean>피르고스</Korean>
+    </Key>
+    <Key ID="STR_vn_mf_zone_chalkeia">
         <Original>Chalkeia</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_panagia">
+        <Korean>할케이아</Korean>
+    </Key>
+    <Key ID="STR_vn_mf_zone_panagia">
         <Original>Panagia</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_feres">
+        <Korean>파나지아</Korean>
+    </Key>
+    <Key ID="STR_vn_mf_zone_feres">
         <Original>Feres</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_selakano">
+        <Korean>페레스</Korean>
+    </Key>
+    <Key ID="STR_vn_mf_zone_selakano">
         <Original>Selakano</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_abdera">
-        <Original>Abdera</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_oreokastro">
-        <Original>Oreokastro</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_syrta">
-        <Original>Syrta</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_lakka">
-        <Original>Lakka</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_stavros">
-        <Original>Stavros</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_neochori">
-        <Original>Neochori</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_alikampos">
-        <Original>Alikampos</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_poliakko">
-        <Original>Poliakko</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_therisa">
-        <Original>Therisa</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_agios_dionysios">
-        <Original>Agios Dionysios</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_kore">
-        <Original>Kore</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_negades">
-        <Original>Negades</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_agia_stemma">
-        <Original>Agia Stemma</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_zaros">
-        <Original>Zaros</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_panochori">
-        <Original>Panochori</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_neri">
-        <Original>Neri</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_kavala">
-        <Original>Kavala</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_aggelochori">
-        <Original>Aggelochori</Original>
-      </Key>
-    </Container>
-    <Container name="Zone_Name_Cam_Lao">
-      <Key ID="STR_vn_mf_zone_ban_hoang">
-        <Original>Ban Hoang</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_ba_ria">
-        <Original>Ba Ria</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_saigon">
-        <Original>Saigon</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_soc_trang">
-        <Original>Soc Trang</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_cu_chi">
-        <Original>Cu Chi</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_can_tho">
-        <Original>Can Tho</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_phu_quoc">
-        <Original>Phu Quoc</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_lumphat">
-        <Original>Lumphat</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_fsb_quan_loi">
-        <Original>FSB Quan Loi</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_a_shau_valley">
-        <Original>A Shau Valley</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_khe_gio_valley">
-        <Original>Khe Gio Valley</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_hai_phong">
-        <Original>Hanoi Docks</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_hue">
-        <Original>Hue</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_da_krong">
-        <Original>Da Krong</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_attapeu">
-        <Original>Attapeu</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_mu_gia_pass">
-        <Original>Mu Gia Pass</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_va_cang">
-        <Original>Va Cang</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_thud_ridge">
-        <Original>Thud Ridge</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_ha_long_navy_base">
-        <Original>Ha Long Navy Base</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_dharma">
-        <Original>Dharma</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_sihanoukville">
-        <Original>Sihanoukville</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_san_bay_ban">
-        <Original>San Bay Ban</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_da_nang">
-        <Original>Da Nang</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_ling_ho">
-        <Original>Ling Ho</Original>
-      </Key>
-    </Container>
-    <Container name="ZoneName_khe_sanh">
-      <Key ID="STR_vn_mf_zone_khe_sanh">
-        <Original>Khe Sanh</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_kok">
-        <Original>Kok</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_french_fort">
-        <Original>French Fort</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_french_fort_base">
-        <Original>French Fort Base</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_khe_sanh_base">
-        <Original>Khe Sanh Base</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_koanphan">
-        <Original>Koanphan</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_that">
-        <Original>That</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_nabo">
-        <Original>Nabo</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_river_edge">
-        <Original>River Edge</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_hill_203">
-        <Original>Hill203</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_hill_538">
-        <Original>Hill538</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_kate">
-        <Original>Kate</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_hill_399">
-        <Original>Hill399</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_xom_bau">
-        <Original>Xom Bau</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_hickory_hill">
-        <Original>Hickory Hill</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_pomkhoun">
-        <Original>Pomkhoun</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_hill_861">
-        <Original>Hill861</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_xom_ta_can">
-        <Original>Xom Ta Can</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_lang_temp">
-        <Original>Lang Temp</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_lang_ou_hi">
-        <Original>Near Lang Ou Hi</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_lang_vei">
-        <Original>Lang Vei</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_kok">
-        <Original>Kok</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_a_bung">
-        <Original>A Bung</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_hill_881">
-        <Original>Hill881s</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_sei_na">
-        <Original>Sei Na</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_ro_ro">
-        <Original>Near Ro Ro</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_northwest_jungle">
-        <Original>Jungle 1</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_mu_ta">
-        <Original>Mu Ta</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_pagnouy">
-        <Original>Pagnouy</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_nam_hung">
-        <Original>Nam Hung</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_co_put">
-        <Original>Co Put</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_lang_hoan_tap">
-        <Original>Lang Hoan Tap</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_mouang_nong">
-        <Original>Mouang Nong</Original>
-      </Key>
-    </Container>
-    <Container name="ZoneName_the_bra">
-      <Key ID="STR_vn_mf_zone_ban_dac_maruk">
-        <Original>Ban Dac Maruk</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_phouvong">
-        <Original>Phouvong</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_ban_pakha">
-        <Original>Ban Pakha</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_nam_phat">
-        <Original>Nam Phat</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_xayden">
-        <Original>Xayden</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_ban_onglouang">
-        <Original>Ban Onglouang</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_antoum">
-        <Original>Antoum</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_pak_ha">
-        <Original>Pak Ha</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_the_bra">
-        <Original>The Bra</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_western_temple">
-        <Original>Western Temple</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_nva_base_316">
-        <Original>NVA Base 316</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_southwestern_supply_depot">
-        <Original>Southwestern Supply Depot</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_western_pow_camp">
-        <Original>Western POW Camp</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_southwestern_nva_outpost">
-        <Original>Southwestern NVA Outpost</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_pia_hom">
-        <Original>Pia Hom</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_southeastern_nva_outpost">
-        <Original>Southeastern NVA Outpost</Original>
-      </Key>
-      <Key ID="STR_vn_mf_zone_southeastern_supply_depot">
-        <Original>Southeastern Supply Depot</Original>
-      </Key>
-    </Container>
-  </Package>
-</Project>
+        <Korean>셀라카노</Korean>
+    </Key>
+		<Key ID="STR_vn_mf_zone_abdera">
+  <Original>Abdera</Original>
+  <Korean>압데라</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_oreokastro">
+  <Original>Oreokastro</Original>
+  <Korean>오레오카스트로</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_syrta">
+  <Original>Syrta</Original>
+  <Korean>싸이르타</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_lakka">
+  <Original>Lakka</Original>
+  <Korean>락카</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_stavros">
+  <Original>Stavros</Original>
+  <Korean>스타브로스</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_neochori">
+  <Original>Neochori</Original>
+  <Korean>네오호리</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_alikampos">
+  <Original>Alikampos</Original>
+  <Korean>알리캄포스</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_poliakko">
+  <Original>Poliakko</Original>
+  <Korean>폴리아코</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_therisa">
+  <Original>Therisa</Original>
+  <Korean>테리사</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_agios_dionysios">
+  <Original>Agios Dionysios</Original>
+  <Korean>아지오스 디오니시오스</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_kore">
+  <Original>Kore</Original>
+  <Korean>코레</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_negades">
+  <Original>Negades</Original>
+  <Korean>네가데스</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_agia_stemma">
+  <Original>Agia Stemma</Original>
+  <Korean>아지아 스테마</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_zaros">
+  <Original>Zaros</Original>
+  <Korean>자로스</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_panochori">
+  <Original>Panochori</Original>
+  <Korean>파노호리</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_neri">
+  <Original>Neri</Original>
+  <Korean>네리</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_kavala">
+  <Original>Kavala</Original>
+  <Korean>카발라</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_aggelochori">
+  <Original>Aggelochori</Original>
+  <Korean>아게로호리</Korean>
+</Key>
+</Container>		
+	<Container name="Zone_Name_Cam_Lao">
+  <Key ID="STR_vn_mf_zone_ban_hoang">
+    <Original>Ban Hoang</Original>
+    <Korean>반황</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_ba_ria">
+    <Original>Ba Ria</Original>
+    <Korean>바 리아</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_saigon">
+    <Original>Saigon</Original>
+    <Korean>사이공</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_soc_trang">
+    <Original>Soc Trang</Original>
+    <Korean>속 창</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_cu_chi">
+    <Original>Cu Chi</Original>
+    <Korean>쿠 치</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_can_tho">
+    <Original>Can Tho</Original>
+    <Korean>칸토</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_phu_quoc">
+    <Original>Phu Quoc</Original>
+    <Korean>푸꾸옥</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_lumphat">
+    <Original>Lumphat</Original>
+    <Korean>럼팟</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_fsb_quan_loi">
+    <Original>FSB Quan Loi</Original>
+    <Korean>FSB 콴 로이</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_a_shau_valley">
+    <Original>A Shau Valley</Original>
+    <Korean>A 쇼우 계곡</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_khe_gio_valley">
+    <Original>Khe Gio Valley</Original>
+    <Korean>케 지오 계곡</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_hai_phong">
+    <Original>Hanoi Docks</Original>
+    <Korean>하노이 독스</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_hue">
+    <Original>Hue</Original>
+    <Korean>휴에</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_da_krong">
+    <Original>Da Krong</Original>
+    <Korean>다 크롱</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_attapeu">
+    <Original>Attapeu</Original>
+    <Korean>아타푸</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_mu_gia_pass">
+    <Original>Mu Gia Pass</Original>
+    <Korean>무 교 통로</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_va_cang">
+    <Original>Va Cang</Original>
+    <Korean>바 캉</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_thud_ridge">
+    <Original>Thud Ridge</Original>
+    <Korean>통 레지</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_ha_long_navy_base">
+    <Original>Ha Long Navy Base</Original>
+    <Korean>하롱 해군 기지</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_dharma">
+    <Original>Dharma</Original>
+    <Korean>달마</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_sihanoukville">
+    <Original>Sihanoukville</Original>
+    <Korean>시아누크빌</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_san_bay_ban">
+    <Original>San Bay Ban</Original>
+    <Korean>산 베이 반</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_da_nang">
+    <Original>Da Nang</Original>
+    <Korean>다낭</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_ling_ho">
+    <Original>Ling Ho</Original>
+    <Korean>링 호</Korean>
+  </Key>
+</Container>
+<Container name="ZoneName_khe_sanh">
+  <Key ID="STR_vn_mf_zone_khe_sanh">
+    <Original>Khe Sanh</Original>
+    <Korean>케산</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_kok">
+    <Original>Kok</Original>
+    <Korean>콕</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_french_fort">
+    <Original>French Fort</Original>
+    <Korean>프랑스 요새</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_french_fort_base">
+    <Original>French Fort Base</Original>
+    <Korean>프랑스 요새 기지</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_khe_sanh_base">
+    <Original>Khe Sanh Base</Original>
+    <Korean>케산 기지</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_koanphan">
+    <Original>Koanphan</Original>
+    <Korean>콴 판</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_that">
+    <Original>That</Original>
+    <Korean>탓</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_nabo">
+    <Original>Nabo</Original>
+    <Korean>나보</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_river_edge">
+    <Original>River Edge</Original>
+    <Korean>리버 엣지</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_hill_203">
+    <Original>Hill203</Original>
+    <Korean>언덕 203</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_hill_538">
+    <Original>Hill538</Original>
+    <Korean>언덕 538</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_kate">
+    <Original>Kate</Original>
+    <Korean>케이트</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_hill_399">
+    <Original>Hill399</Original>
+    <Korean>언덕 399</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_xom_bau">
+    <Original>Xom Bau</Original>
+    <Korean>손 바우</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_hickory_hill">
+    <Original>Hickory Hill</Original>
+    <Korean>히코리 힐</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_pomkhoun">
+    <Original>Pomkhoun</Original>
+    <Korean>폼 쿤</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_hill_861">
+    <Original>Hill861</Original>
+    <Korean>언덕 861</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_xom_ta_can">
+    <Original>Xom Ta Can</Original>
+    <Korean>손 타 캔</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_lang_temp">
+    <Original>Lang Temp</Original>
+    <Korean>랑 템프</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_lang_ou_hi">
+    <Original>Near Lang Ou Hi</Original>
+    <Korean>랑 오 하이 인근</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_lang_vei">
+    <Original>Lang Vei</Original>
+    <Korean>랑 베이</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_kok">
+    <Original>Kok</Original>
+    <Korean>콕</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_a_bung">
+    <Original>A Bung</Original>
+    <Korean>아 붕</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_hill_881">
+    <Original>Hill881s</Original>
+    <Korean>언덕 881s</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_sei_na">
+    <Original>Sei Na</Original>
+    <Korean>세이나</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_ro_ro">
+    <Original>Near Ro Ro</Original>
+    <Korean>로로 인근</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_northwest_jungle">
+    <Original>Jungle 1</Original>
+    <Korean>정글 1</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_mu_ta">
+    <Original>Mu Ta</Original>
+    <Korean>무 타</Korean>
+  </Key>
+  <Key ID="STR_vn_mf_zone_pagnouy">
+    <Original>Pagnouy</Original>
+    <Korean>파뉴이</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_nam_hung">
+    <Original>Nam Hung</Original>
+    <Korean>남훙</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_co_put">
+    <Original>Co Put</Original>
+    <Korean>코푸트</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_lang_hoan_tap">
+    <Original>Lang Hoan Tap</Original>
+    <Korean>랑호안탑</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_mouang_nong">
+    <Original>Mouang Nong</Original>
+    <Korean>무앙농</Korean>
+</Key>
+			</Container>
+    <Container name="ZoneName_the_bra">	
+			<Key ID="STR_vn_mf_zone_ban_dac_maruk">
+    <Original>Ban Dac Maruk</Original>
+    <Korean>반닥 마룩</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_phouvong">
+    <Original>Phouvong</Original>
+    <Korean>푸봉</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_ban_pakha">
+    <Original>Ban Pakha</Original>
+    <Korean>반팍하</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_nam_phat">
+    <Original>Nam Phat</Original>
+    <Korean>남팟</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_xayden">
+    <Original>Xayden</Original>
+    <Korean>사이덴</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_ban_onglouang">
+    <Original>Ban Onglouang</Original>
+    <Korean>반옹루앙</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_antoum">
+    <Original>Antoum</Original>
+    <Korean>안툼</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_pak_ha">
+    <Original>Pak Ha</Original>
+    <Korean>팍하</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_the_bra">
+    <Original>The Bra</Original>
+    <Korean>더 브라</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_western_temple">
+    <Original>Western Temple</Original>
+    <Korean>서부 사원</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_nva_base_316">
+    <Original>NVA Base 316</Original>
+    <Korean>NVA 316기지</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_southwestern_supply_depot">
+    <Original>Southwestern Supply Depot</Original>
+    <Korean>남서부 보급창고</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_western_pow_camp">
+    <Original>Western POW Camp</Original>
+    <Korean>서부 포우수용소</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_southwestern_nva_outpost">
+    <Original>Southwestern NVA Outpost</Original>
+    <Korean>남서부 NVA 전초기지</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_pia_hom">
+    <Original>Pia Hom</Original>
+    <Korean>피아 혐</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_southeastern_nva_outpost">
+    <Original>Southeastern NVA Outpost</Original>
+    <Korean>동남부 NVA 전초기지</Korean>
+</Key>
+<Key ID="STR_vn_mf_zone_southeastern_supply_depot">
+    <Original>Southeastern Supply Depot</Original>
+    <Korean>동남부 보급창고</Korean>
+</Key>
+</Container>
+</Package>
+</Project>								 
+  
+					   
