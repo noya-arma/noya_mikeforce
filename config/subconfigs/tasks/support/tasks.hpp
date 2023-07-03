@@ -91,9 +91,9 @@ class support_resupply_workshop : support_resupply
 class support_transport : support_task
 {
 	taskcategory = "SUP";
-	tasktitle = "Collect Squad";
-	taskname = "Collect Squad";
-	taskdesc = "Collect %1 from the given position, and drop them at their desired location.";
+	tasktitle = "수송 요청";
+	taskname = "수송 요청";
+	taskdesc = "주어진 위치에서 %1을 픽업하고 원하는 위치로 수송하십시오.";
 	tasktype = "land";
 	taskgroups[] = {"ACAV", "GreenHornets"};
 	//TODO: Remove GreenHornets and ACAV
@@ -101,7 +101,7 @@ class support_transport : support_task
 	rankpoints = 10;
 	taskprogress = 0;
 
-	requesterDesc = "Request pickup from a specific location.";
+	requesterDesc = "특정 위치에서 픽업을 요청하십시오.";
 
 	//The script called when the task is created.
 	taskScript = "vn_mf_fnc_state_machine_task_system";
@@ -116,14 +116,14 @@ class support_transport : support_task
 	//Data for subtasks. These are specific to the script.
 	class mount
 	{
-		taskname = "Pickup Squad";
-		taskdesc = "Collect the squad from this position";
+		taskname = "부대 픽업";
+		taskdesc = "이 위치에서 부대를 픽업하십시오.";
 	};
 
 	class transport
 	{
-		taskname = "Transport the Squad";
-		taskdesc = "Transport the squad to the location of their choice.";
+		taskname = "부대 수송";
+		taskdesc = "부대를 그들이 선택한 위치로 수송하십시오.";
 	};
 };
 

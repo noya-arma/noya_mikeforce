@@ -38,16 +38,16 @@ class vn_c_car_03_01 : unlocked {};
 class vn_c_car_04_01 : unlocked {};
 
 //APC
-class vn_b_armor_m113_01 : acav {};
-class vn_b_armor_m113_acav_01 : acav {};
-class vn_b_armor_m113_acav_02 : acav {};
-class vn_b_armor_m113_acav_03 : acav {};
-class vn_b_armor_m113_acav_04 : acav {};
-class vn_b_armor_m113_acav_05 : acav {};
-class vn_b_armor_m113_acav_06 : acav {};
+class vn_b_armor_m113_01_rok_army : acav {};
+class vn_b_armor_m113_acav_01_rok_army : acav {};
+class vn_b_armor_m113_acav_02_rok_army : acav {};
+class vn_b_armor_m113_acav_03_rok_army : acav {};
+class vn_b_armor_m113_acav_04_rok_army : acav {};
+class vn_b_armor_m113_acav_05_rok_army : acav {};
+class vn_b_armor_m113_acav_06_rok_army : acav {};
 
 // M113 mortar and flamethrower
-class vn_b_armor_m125_01 : acav {};
+class vn_b_armor_m125_01_rok_army : acav {};
 class vn_b_armor_m132_01 : acav {};
 
 //M41 Walker bulldog
@@ -63,11 +63,11 @@ class vn_b_armor_m48_01_01 : acav {};
 class vn_b_armor_m67_01_01 : acav {};
 
 //Transport trucks
-class vn_b_wheeled_m54_01 : acav {};
+class vn_b_wheeled_m54_01_rok_army : acav {};
 class vn_b_wheeled_m54_01_airport : acav {};
-class vn_b_wheeled_m54_02 : acav {};
+class vn_b_wheeled_m54_02_rok_army : acav {};
 //M109 Command Truck
-class vn_b_wheeled_m54_03 : acav {};
+class vn_b_wheeled_m54_03_rok_army : acav {};
 //Repair Truck
 class vn_b_wheeled_m54_repair : acav {};
 class vn_b_wheeled_m54_repair_airport : green_hornet {};
@@ -154,8 +154,8 @@ class vn_b_air_uh1b_01_01 : green_hornet {};
 
 
 // M113 command and ambulance variants
-class vn_b_armor_m577_01 : acav {};
-class vn_b_armor_m577_02 : acav {};
+class vn_b_armor_m577_01_rok_army : acav {};
+class vn_b_armor_m577_02_rok_army : acav {};
 
 
 //class UH1D : green_hornet {}; - Dustoff

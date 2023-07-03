@@ -1,9 +1,9 @@
 class capture_zone : task
 {
 	taskcategory = "PRI";
-	tasktitle = "Capture %1";
-	taskname = "Capture %1";
-	taskdesc = "Defeat hostile forces in %1, and destroy their HQ's equipment stockpiles.";
+	tasktitle = "%1 점령";
+	taskname = "%1 점령";
+	taskdesc = "%1에서 적대적인 세력을 격파하고, 그들의 본부의 장비 저장고를 파괴하십시오.";
 	tasktype = "attack";
 	taskimage = "vn\missions_f_vietnam\data\img\mikeforce\p\vn_ui_mf_task_p1.jpg";
 	rankpoints = 50;
@@ -20,29 +20,29 @@ class capture_zone : task
 	//Data for subtasks. These are specific to the script.
 	class hold_hq
 	{
-		taskname = "Capture and Hold HQ";
-		taskdesc = "Enter the enemy HQ and prevent enemies recapturing it.";
+		taskname = "본부를 점령하고 유지하십시오.";
+		taskdesc = "적의 본부에 진입하여 적이 다시 점령하지 못하도록 방지하십시오.";
 	};
 
 	class destroy_sites
 	{
-		taskname = "Destroy Sites";
-		taskdesc = "Destroy all HQs, AA and artillery sites within 1200m.";
+		taskname = "사이트를 파괴하십시오.";
+		taskdesc = "1200m 이내의 모든 본부, 대공포 및 포대 사이트를 파괴하십시오.";
 	};
 
 	class destroy_enemy_supplies
 	{
-		taskname = "Destroy Enemy Supplies";
-		taskdesc = "Destroy the supplies found at the enemy HQ. Explosives are recommended.";
+		taskname = "적의 보급품을 파괴하십시오.";
+		taskdesc = "적의 본부에서 발견된 보급품을 파괴하십시오. 폭발물을 사용하는 것이 권장됩니다.";
 	};
 };
 
 class build_fob : task
 {
 	taskcategory = "PRI";
-	tasktitle = "Build FOB";
-	taskname = "Build FOB";
-	taskdesc = "Build an FOB to begin claiming zones within %1ms of it.";
+	tasktitle = "FOB 건설";
+	taskname = "FOB 건설";
+	taskdesc = "FOB를 건설하여 주변 %1미터 내의 지역을 점령하기 시작하십시오.";
 	taskformatdata = "[mf_s_baseZoneUnlockDistance]";
 	tasktype = "repair";
 	taskimage = "vn\missions_f_vietnam\data\img\mikeforce\p\vn_ui_mf_task_p1.jpg";
@@ -60,7 +60,7 @@ class build_fob : task
 	//Data for subtasks. These are specific to the script.
 	class build
 	{
-		taskname = "Build a HQ";
-		taskdesc = "Construct a HQ building to create a base.";
+		taskname = "HQ 건설";
+		taskdesc = "기지를 만들기 위해 HQ 건물을 건설하십시오.";
 	};
 };

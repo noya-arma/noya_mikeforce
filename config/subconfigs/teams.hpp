@@ -1,7 +1,7 @@
 // limits and vanilla/custom trait values
 class MikeForce
 {
-    name = "Mike Force [Infantry]";
+    name = "Mike Force [보병대]";
     icon = "\vn\ui_f_vietnam\ui\taskroster\img\logos\Logo_MikeForce_HL.paa";
     shortname = "Mike Force";
     unit = "vn_b_men_army_01";
@@ -34,7 +34,7 @@ class MikeForce
 };
 class SpikeTeam
 {
-    name = "Spike Team [Special Forces]";
+    name = "Spike Team [정찰대]";
     icon = "\vn\ui_f_vietnam\ui\taskroster\img\logos\Logo_SpikeTeam_HL.paa";
     shortname = "Spike Team";
     unit = "vn_b_men_army_01";
@@ -68,7 +68,7 @@ class SpikeTeam
 };
 class ACAV
 {
-    name = "Armored Cavalry [Ground Support]";
+    name = "ACAV [지상지원]";
     icon = "\vn\ui_f_vietnam\ui\taskroster\img\logos\Logo_ACAV_HL.paa";
     shortname = "ACAV";
     unit = "vn_b_men_army_01";
@@ -101,7 +101,7 @@ class ACAV
 };
 class GreenHornets
 {
-    name = "Green Hornets [Air Support]";
+    name = "Green Hornets [공중지원]";
     icon = "\vn\ui_f_vietnam\ui\taskroster\img\logos\Logo_Hornets_HL.paa";
     shortname = "Green Hornets";
     unit = "vn_b_men_army_01";

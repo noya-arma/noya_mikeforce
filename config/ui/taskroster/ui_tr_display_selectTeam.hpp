@@ -117,7 +117,7 @@ class vn_tr_disp_selectTeam
 			w = UIW(7);
 			h = UIH(1.1);
 			
-			text = "ACCEPT";
+			text = "수락";
 			font = USEDFONT;
 			sizeEx = TXT_L;
 			onButtonClick = "[] call vn_mf_fnc_tr_selectTeam_set; (ctrlParent param[0]) closeDisplay 1;";
@@ -135,7 +135,7 @@ class vn_tr_disp_selectTeam
 			w = UIW(7);
 			h = UIH(1.1);
 			
-			text = "CANCEL";
+			text = "취소";
 			font = USEDFONT;
 			sizeEx = TXT_L;
 			onButtonClick = (ctrlParent param[0]) closeDisplay 2;

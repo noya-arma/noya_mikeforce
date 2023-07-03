@@ -136,35 +136,35 @@ class vehicles {
 		tags[] = {"ch34","armed","firesupport","helicopter"};
 	};
 
-	class vn_b_armor_m113_01 {
+	class vn_b_armor_m113_01_rok_army {
 		tags[] = {"m113","armed","transport","apc"};
 	};
 
-	class vn_b_armor_m113_acav_01 {
+	class vn_b_armor_m113_acav_01_rok_army {
 		tags[] = {"m113","armed","transport","apc"};
 	};
 
-	class vn_b_armor_m113_acav_02 {
+	class vn_b_armor_m113_acav_02_rok_army {
 		tags[] = {"m113","armed","transport","apc"};
 	};
 
-	class vn_b_armor_m113_acav_03 {
+	class vn_b_armor_m113_acav_03_rok_army {
 		tags[] = {"m113","armed","transport","apc"};
 	};
 
-	class vn_b_armor_m113_acav_04 {
+	class vn_b_armor_m113_acav_04_rok_army {
 		tags[] = {"m113","armed","transport","apc"};
 	};
 
-	class vn_b_armor_m113_acav_05 {
+	class vn_b_armor_m113_acav_05_rok_army {
 		tags[] = {"m113","armed","transport","apc"};
 	};
 
-	class vn_b_armor_m113_acav_06 {
+	class vn_b_armor_m113_acav_06_rok_army {
 		tags[] = {"m113","armed","transport","apc","antitank"};
 	};
 
-	class vn_b_armor_m125_01 {
+	class vn_b_armor_m125_01_rok_army {
 		tags[] = {"m113","armed","firesupport","apc","artillery"};
 	};
 
@@ -180,11 +180,11 @@ class vehicles {
 		tags[] = {"m48a3","armed","firesupport","tank","heavytank","antitank"};
 	};
 
-	class vn_b_armor_m577_01 {
+	class vn_b_armor_m577_01_rok_army {
 		tags[] = {"m577","transport","apc"};
 	};
 
-	class vn_b_armor_m577_02 {
+	class vn_b_armor_m577_02_rok_army {
 		tags[] = {"m577","medical","apc"};
 	};
 
@@ -296,19 +296,19 @@ class vehicles {
 		tags[] = {"dirtranger","armed","firesupport","car","antitank"};
 	};
 
-	class vn_b_wheeled_m151_01 {
+	class vn_b_wheeled_m151_01_rok_army {
 		tags[] = {"m151a1","transport", "car"};
 	};
 
-	class vn_b_wheeled_m151_02 {
+	class vn_b_wheeled_m151_02_rok_army {
 		tags[] = {"m151a1","transport", "car"};
 	};
 
-	class vn_b_wheeled_m151_mg_01 {
+	class vn_b_wheeled_m151_mg_01_rok_army {
 		tags[] = {"m151a1","armed","firesupport","car"};
 	};
 
-	class vn_b_wheeled_m151_mg_02 {
+	class vn_b_wheeled_m151_mg_02_rok_army {
 		tags[] = {"m151a1","armed","firesupport","car"};
 	};
 
@@ -328,7 +328,7 @@ class vehicles {
 		tags[] = {"m151a1","armed","firesupport","car","antitank"};
 	};
 
-	class vn_b_wheeled_m151_mg_06 {
+	class vn_b_wheeled_m151_mg_06_rok_army {
 		tags[] = {"m151a1","armed","firesupport","car","antitank"};
 	};
 
@@ -360,15 +360,15 @@ class vehicles {
 		tags[] = {"m274","armed","firesupport","car"};
 	};
 
-	class vn_b_wheeled_m54_01 {
+	class vn_b_wheeled_m54_01_rok_army {
 		tags[] = {"m54","transport","truck"};
 	};
 
-	class vn_b_wheeled_m54_02 {
+	class vn_b_wheeled_m54_02_rok_army {
 		tags[] = {"m54","transport","truck"};
 	};
 
-	class vn_b_wheeled_m54_03 {
+	class vn_b_wheeled_m54_03_rok_army {
 		tags[] = {"m109","transport","truck"};
 	};
 
@@ -864,6 +864,29 @@ class spawn_point_types {
 				icon = VEHICLE_ICON_STATIC;
 				include[] = { { "static", "artillery" } };
 				exclude[] = { "mortar" };
+			};
+		};
+	};
+
+	class light_static {
+		name = "Light Static";
+		RESPAWN_SHORT;
+
+		class categories {
+			class m1919 {
+				name ="M1919";
+				icon = VEHICLE_ICON_STATIC;
+				include[] = { {"m1919", "static"} };
+			};
+			class M60 {
+				name ="고속유탄 / M60";
+				icon = VEHICLE_ICON_STATIC;
+				include[] = { {"m60", "static"} };
+			};
+			class mortar {
+				name ="Mortar ";
+				icon = VEHICLE_ICON_STATIC;
+				include[] = { {"mortar"} };
 			};
 		};
 	};

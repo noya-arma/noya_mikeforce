@@ -81,7 +81,7 @@ class ai_scaling
     title = $STR_vn_mf_param_ai_scaling;
     values[] = {25, 50, 75, 100, 150, 200, 250, 300};
     texts[] = {"25%", "50%", "75%", "100%", "150%", "200%", "250%", "300%"};
-    default = 100;
+    default = 75;
 };
 
 class ai_scaling_desc
@@ -204,7 +204,7 @@ class snake_bite_chance
     title = $STR_vn_mf_param_snake_bite_chance;
     values[] = {0, 15, 25, 35, 50, 65, 75};
     texts[] = {"0% (Off)", "15%", "25%", "35%", "50% (Default)", "65%", "75%"};
-    default = 50;
+    default = 0;
 };
 
 class snake_bite_chance_desc

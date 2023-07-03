@@ -214,7 +214,7 @@ class vn_tr_disp_taskRoster_Main
 			onButtonClick = "call vn_mf_fnc_tr_cleanRightSheet; call vn_mf_fnc_tr_supportTask_show;";
 			
 			MouseButtonDown = "";	//No _this param given
-			text = "Request a support task";
+			text = "지원 임무 요청";
 		};
 		class requestMission_flag: vn_mf_RscPicture
 		{
@@ -240,7 +240,7 @@ class vn_tr_disp_taskRoster_Main
 			w = UIW(14);
 			h = UIH(1);
 			
-			text = "No active Task";
+			text = "활성화된 과업 없음";
 			
 			colorText[] = {0,0,0,1};
 			colorBackground[] = {0,0,1,0.0};

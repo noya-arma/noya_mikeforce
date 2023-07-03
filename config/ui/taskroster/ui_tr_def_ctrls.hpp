@@ -75,7 +75,7 @@ class vn_tr_selectTeam_base : vn_mf_RscControlsGroupNoScrollbarHV
 			colorText[] = {0.1,0.1,0.1,0.9};
 			colorBackground[] = {0,0,0,0};
 			size = TXT_M;
-			text = "Choose your team.";	//loc
+			text = "팀을 선택하세요.";	//loc
 			tooltip = "";
 		};
 		
@@ -90,7 +90,7 @@ class vn_tr_selectTeam_base : vn_mf_RscControlsGroupNoScrollbarHV
 			colorText[] = {0.1,0.1,0.1,0.9};
 			colorBackground[] = {0,0,0,0};
 			size = TXT_S;
-			text = "Active Players:";	//loc
+			text = "활동 중인 플레이어:";	//loc
 			tooltip = "";
 		};
 		
@@ -169,7 +169,7 @@ class vn_tr_selectTeam_base : vn_mf_RscControlsGroupNoScrollbarHV
 			colorText[] = {0.1,0.1,0.1,0.9};
 			colorBackground[] = {0,0,0,0};
 			size = TXT_M;
-			text = "Select a Team";	//loc
+			text = "팀 선택";	//loc
 			tooltip = "";
 		};
 		
@@ -184,7 +184,7 @@ class vn_tr_selectTeam_base : vn_mf_RscControlsGroupNoScrollbarHV
 			colorText[] = {0.1,0.1,0.1,0.9};
 			colorBackground[] = {0,0,0,0};
 			size = TXT_S;
-			text = "Take the fight to the VC in close quarter combat. Access to static weapon emplacements";	//loc
+			text = "전투를 가까운 거리에서 베트콩에 맞서 보다 밀접한 교전을 벌여보세요. 정적 무기 설치물에 접근할 수 있습니다.";	//loc
 			tooltip = "";
 		};
 	};
@@ -219,7 +219,7 @@ class vn_tr_supportRequest_miniMap_accept: vn_mf_RscButton
 	
 	onButtonClick = "systemchat str [_this, 'ACCEPT']; call vn_mf_fnc_tr_supportTask_selectPosition_accept;";
 	MouseButtonDown = "";	//No _this param given
-	text = "ACCEPT";
+	text = "수락";
 };
 
 class vn_tr_supportRequest_miniMap_abort: vn_mf_RscButton
@@ -238,7 +238,7 @@ class vn_tr_supportRequest_miniMap_abort: vn_mf_RscButton
 	
 	onButtonClick = "systemchat str [_this, 'ABORT']; [] spawn vn_mf_fnc_tr_supportTask_map_hide;";
 	MouseButtonDown = "";	//No _this param given
-	text = "ABORT";
+	text = "취소";
 };
 
 class vn_tr_supportRequest_base : vn_mf_RscControlsGroupNoScrollbarHV
@@ -342,7 +342,7 @@ class vn_tr_supportRequest_base : vn_mf_RscControlsGroupNoScrollbarHV
 			colorText[] = {0.1,0.1,0.1,0.9};
 			colorBackground[] = {0,0,0,0.0};
 			size = TXT_S;
-			text = "Select Team";
+			text = "요청 팀 선택";
 			tooltip = "";
 		};
 		class supportTeam: supportTask
@@ -377,7 +377,7 @@ class vn_tr_supportRequest_base : vn_mf_RscControlsGroupNoScrollbarHV
 			sizeEx = TXT_S;
 			onButtonClick = "_this#0 ctrlEnable false; call vn_mf_fnc_tr_supportTask_selectPosition;";
 			MouseButtonDown = "";	//No _this param given
-			text = "Select Position";
+			text = "위치 선택";
 		};
 		
 		class createTask: vn_mf_RscButton
@@ -397,7 +397,7 @@ class vn_tr_supportRequest_base : vn_mf_RscControlsGroupNoScrollbarHV
 			sizeEx = TXT_M;
 			onButtonClick = "systemchat str [_this,'4. Support Request']; (_this#0) ctrlEnable false; call vn_mf_fnc_tr_supportTask_create;";
 			MouseButtonDown = "";	//No _this param given
-			text = "Create new support task";
+			text = "[지원 임무 생성]";
 		};
 	};
 };
@@ -733,7 +733,7 @@ class vn_tr_missionInfoPolaroid_base : vn_mf_RscControlsGroupNoScrollbarHV
 			colorText[] = {0.1,0.1,0.1,0.9};
 			colorBackground[] = {1,0,0,0.0};
 			shadow = 0;
-			text = "Mission Name";
+			text = "임무명";
 			font = USEDFONT_B;
 			sizeEx = TXT_CST(0.9);
 			tooltip = "";
@@ -751,7 +751,7 @@ class vn_tr_missionInfoPolaroid_base : vn_mf_RscControlsGroupNoScrollbarHV
 			colorText[] = {0.1,0.1,0.1,0.9};
 			colorBackground[] = {1,0,0,0.0};
 			shadow = 0;
-			text = "Mission Description";
+			text = "임무 설명";
 			font = USEDFONT;
 			sizeEx = TXT_CST(0.75);
 			tooltip = "";
@@ -809,7 +809,7 @@ class vn_tr_missionInfoPolaroid_base : vn_mf_RscControlsGroupNoScrollbarHV
 			sizeEx = TXT_L;
 			text = "0m";
 			// tooltip = "Coordinates - Format: XXXYYY";
-			tooltip = "Distance to Mission";
+			tooltip = "임무까지의 거리";
 		};
 		
 		class btn_mission_setActive: vn_mf_RscButton
@@ -830,8 +830,8 @@ class vn_tr_missionInfoPolaroid_base : vn_mf_RscControlsGroupNoScrollbarHV
 			
 			onButtonClick = "call vn_mf_fnc_tr_mission_setActive;";
 			// MouseButtonDown = "";	//No _this param given
-			text = "make active";
-			tooltip = "Set this mission as active.";
+			text = "활성화 하기";
+			tooltip = "이 임무를 활성화하기.";
 		};
 	};
 };

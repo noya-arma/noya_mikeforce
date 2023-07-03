@@ -1,9 +1,9 @@
 class secondary_st2 : task
 {
 	taskcategory = "SEC";
-	tasktitle = "Destroy Gun Emplacement";
-	taskname = "Destroy Gun Emplacement";
-	taskdesc = "Destroy the hostile gun emplacement near to the given position.";
+	tasktitle = "포대를 파괴하세요.";
+	taskname = "포대를 파괴하세요.";
+	taskdesc = "주어진 위치 근처의 적의 포대를 파괴하세요.";
 	tasktype = "destroy";
 	taskimage = "vn\missions_f_vietnam\data\img\mikeforce\s\vn_ui_mf_task_st2.jpg";
 	taskgroups[] = {"SpikeTeam", "MikeForce"};
@@ -22,8 +22,8 @@ class secondary_st2 : task
 
 	class preparing_emplacement
 	{
-		taskname = "Prevent Emplacement Build";
-		taskdesc = "Prevent the gun emplacement from being built";
+		taskname = "포대 건설을 방지하세요.";
+		taskdesc = "포대 건설을 방지하세요.";
 	};
 
 	//Data for subtasks. These are specific to the script.
