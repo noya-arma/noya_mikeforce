@@ -8,7 +8,7 @@ class EditorData
 	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=639;
+		nextID=653;
 	};
 	class MarkerIDProvider
 	{
@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=684;
+		nextID=713;
 	};
 	class Camera
 	{
@@ -213,7 +213,7 @@ class Mission
 	assetType="Free";
 	class Intel
 	{
-		briefingName="Mike Force (v1.00.03)";
+		briefingName="Mike Force (v1.00.03) kor";
 		timeOfChanges=1800.0002;
 		startWeather=0.25;
 		startWind=0.1;
@@ -9602,7 +9602,7 @@ class Mission
 			name="Light transport spawn #1";
 			class Entities
 			{
-				items=3;
+				items=9;
 				class Item0
 				{
 					dataType="Object";
@@ -9663,9 +9663,133 @@ class Mission
 					id=599;
 					type="Logic";
 				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3360.1841,44.13147,4389.8398};
+						angles[]={0,3.1416404,-0};
+					};
+					side="Empty";
+					flags=5;
+					class Attributes
+					{
+						disableSimulation=1;
+					};
+					id=647;
+					type="vn_signad_sponsors_f";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3359.3118,44.120609,4383.0005};
+						angles[]={0,6.2583055,0};
+					};
+					side="Empty";
+					class Attributes
+					{
+					};
+					id=648;
+					type="Sign_Arrow_Direction_Green_F";
+					atlOffset=1.0000458;
+				};
+				class Item5
+				{
+					dataType="Logic";
+					class PositionInfo
+					{
+						position[]={3358.667,43.011158,4386.9712};
+						angles[]={0.039985489,3.1416452,0};
+					};
+					init="['light_static', 0] call vn_mf_fnc_veh_asset_3DEN_spawn_point";
+					id=649;
+					type="Logic";
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3360.5623,44.161251,4378.6929};
+						angles[]={0,3.1416404,-0};
+					};
+					side="Empty";
+					flags=5;
+					class Attributes
+					{
+						disableSimulation=1;
+					};
+					id=650;
+					type="vn_signad_sponsors_f";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={3359.6899,44.048138,4371.8535};
+						angles[]={0,6.2583055,0};
+					};
+					side="Empty";
+					class Attributes
+					{
+					};
+					id=651;
+					type="Sign_Arrow_Direction_Green_F";
+					atlOffset=1.0000458;
+				};
+				class Item8
+				{
+					dataType="Logic";
+					class PositionInfo
+					{
+						position[]={3359.0449,43.051804,4375.8242};
+						angles[]={0,3.1416452,0.039985489};
+					};
+					init="['light_static', 0] call vn_mf_fnc_veh_asset_3DEN_spawn_point";
+					id=652;
+					type="Logic";
+				};
 			};
 			id=618;
-			atlOffset=0.26150131;
+			atlOffset=0.25365067;
 		};
 		class Item76
 		{
@@ -10911,11 +11035,11 @@ class Mission
 	{
 		class LinkIDProvider
 		{
-			nextID=46;
+			nextID=50;
 		};
 		class Links
 		{
-			items=46;
+			items=50;
 			class Item0
 			{
 				linkID=0;
@@ -11371,6 +11495,46 @@ class Mission
 				linkID=45;
 				item0=615;
 				item1=617;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item46
+			{
+				linkID=46;
+				item0=648;
+				item1=649;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item47
+			{
+				linkID=47;
+				item0=647;
+				item1=649;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item48
+			{
+				linkID=48;
+				item0=651;
+				item1=652;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item49
+			{
+				linkID=49;
+				item0=650;
+				item1=652;
 				class CustomData
 				{
 					type="Sync";
