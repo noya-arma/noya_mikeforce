@@ -8,7 +8,7 @@ class EditorData
 	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=653;
+		nextID=654;
 	};
 	class MarkerIDProvider
 	{
@@ -16,18 +16,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=713;
+		nextID=742;
 	};
 	class Camera
 	{
-		pos[]={3522.6306,85.464821,4409.623};
-		dir[]={0.9603883,-0.27665213,-0.034191575};
-		up[]={0.27649489,0.960967,-0.0098444363};
-		aside[]={-0.0355797,3.3799734e-007,-0.99939507};
+		pos[]={3396.2798,90.326698,4250.3799};
+		dir[]={-0.15640962,-0.56720734,0.80858725};
+		up[]={-0.10772135,0.82357466,0.55688465};
+		aside[]={0.98180073,-2.1536835e-008,0.1899154};
 	};
 };
 binarizationWanted=0;
-sourceName="vn_mikeforce_indev";
+sourceName="noya_mike_force";
 addons[]=
 {
 	"modules_f_vietnam",
@@ -232,7 +232,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=93;
+		items=94;
 		class Item0
 		{
 			dataType="Layer";
@@ -9669,7 +9669,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={3360.1841,44.13147,4389.8398};
-						angles[]={0,3.1416404,-0};
+						angles[]={0,3.1416404,0};
 					};
 					side="Empty";
 					flags=5;
@@ -9731,7 +9731,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={3360.5623,44.161251,4378.6929};
-						angles[]={0,3.1416404,-0};
+						angles[]={0,3.1416404,0};
 					};
 					side="Empty";
 					flags=5;
@@ -10721,7 +10721,7 @@ class Mission
 					};
 					id=607;
 					type="Sign_Arrow_Direction_Green_F";
-					atlOffset=0.74914169;
+					atlOffset=0.74201584;
 				};
 				class Item2
 				{
@@ -10737,7 +10737,7 @@ class Mission
 				};
 			};
 			id=631;
-			atlOffset=0.021381378;
+			atlOffset=0.04139328;
 		};
 		class Item89
 		{
@@ -10794,7 +10794,7 @@ class Mission
 					};
 					id=610;
 					type="Sign_Arrow_Direction_Green_F";
-					atlOffset=0.74914169;
+					atlOffset=0.74201584;
 				};
 				class Item2
 				{
@@ -10810,7 +10810,7 @@ class Mission
 				};
 			};
 			id=632;
-			atlOffset=0.067237854;
+			atlOffset=0.087371826;
 		};
 		class Item90
 		{
@@ -10867,7 +10867,7 @@ class Mission
 					};
 					id=616;
 					type="Sign_Arrow_Direction_Green_F";
-					atlOffset=0.74914169;
+					atlOffset=0.74201584;
 				};
 				class Item2
 				{
@@ -10940,7 +10940,7 @@ class Mission
 					};
 					id=613;
 					type="Sign_Arrow_Direction_Green_F";
-					atlOffset=0.74914169;
+					atlOffset=0.74201584;
 				};
 				class Item2
 				{
@@ -10956,7 +10956,7 @@ class Mission
 				};
 			};
 			id=634;
-			atlOffset=0.072570801;
+			atlOffset=0.052352905;
 		};
 		class Item92
 		{
@@ -11029,6 +11029,21 @@ class Mission
 			};
 			id=635;
 			atlOffset=0.25;
+		};
+		class Item93
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3328.9275,46.762032,4385.3706};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=653;
+			type="Land_vn_lampshabby_f_4xdir_close";
 		};
 	};
 	class Connections

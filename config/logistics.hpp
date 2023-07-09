@@ -53,18 +53,18 @@ class vn_logistics
 	class vn_b_wheeled_m151_mg_06 : vn_defaults_tiny {};
 
 	//APC
-	class vn_b_armor_m113_01 : vn_defaults_medium {};
-	class vn_b_armor_m113_acav_01 : vn_defaults_small {};
-	class vn_b_armor_m113_acav_02 : vn_defaults_small {};
-	class vn_b_armor_m113_acav_03 : vn_defaults_small {};
-	class vn_b_armor_m113_acav_04 : vn_defaults_small {};
-	class vn_b_armor_m113_acav_05 : vn_defaults_small {};
-	class vn_b_armor_m113_acav_06 : vn_defaults_small {};
+	class vn_b_armor_m113_01_rok_army : vn_defaults_medium {};
+	class vn_b_armor_m113_acav_01_rok_army : vn_defaults_small {};
+	class vn_b_armor_m113_acav_02_rok_army : vn_defaults_small {};
+	class vn_b_armor_m113_acav_03_rok_army : vn_defaults_small {};
+	class vn_b_armor_m113_acav_04_rok_army : vn_defaults_small {};
+	class vn_b_armor_m113_acav_05_rok_army : vn_defaults_small {};
+	class vn_b_armor_m113_acav_06_rok_army : vn_defaults_small {};
 
 	//Transport trucks
-	class vn_b_wheeled_m54_01 : vn_defaults_extra_large {};
+	class vn_b_wheeled_m54_01_rok_army : vn_defaults_extra_large {};
 	class vn_b_wheeled_m54_01_airport : vn_defaults_extra_large {};
-	class vn_b_wheeled_m54_02 : vn_defaults_extra_large {};
+	class vn_b_wheeled_m54_02_rok_army : vn_defaults_extra_large {};
 	//M109 Command Truck
 	class vn_b_wheeled_m54_03 : vn_defaults_medium {};
 	//Repair Truck
