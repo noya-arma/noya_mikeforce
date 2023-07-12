@@ -615,6 +615,11 @@
         <English>Add Sandbag</English>
       <Korean>모래주머니 추가</Korean>
       </Key>
+      <Key ID="STR_vn_mf_destroy_building">
+        <Original>destroy building</Original>
+        <English>destroy building</English>
+      <Korean>구조물 제거</Korean>
+      </Key>
     </Container>
     <Container name="interaction_overlay">
       <Key ID="STR_vn_mf_overlay_duty_officer_name">

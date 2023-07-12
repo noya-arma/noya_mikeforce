@@ -66,6 +66,19 @@ class wheel_menu_actions
 		function = "para_c_fnc_resupply_building_with_sandbag";
 		spawn = 0;
 	};
+	
+	//destroy a building.
+	class destroy_building : base_action
+	{
+		visible = "ALWAYS";
+		condition = "_target call para_g_fnc_is_resupply";
+		text = $STR_vn_mf_destroy_building;
+		icon = "\A3\ui_f\data\Map\Markers\Military\warning_ca.paa";
+		icon_highlighted = "";
+		arguments = "_target";
+		function = "para_c_fnc_destroy_building";
+		spawn = 0;
+	};
 
 	//Resupply a building with a crate
 	class resupply : base_action

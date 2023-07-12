@@ -28,6 +28,7 @@ class para_c
 		class placing_object_adjust {};
 		class resupply_building_with_crate {};
 		class resupply_building_with_sandbag {};
+		class destroy_building {};
 		class toggle_buildmode {};
 	};
 
