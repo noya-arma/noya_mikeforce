@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=742;
+		nextID=771;
 	};
 	class Camera
 	{
@@ -27,7 +27,7 @@ class EditorData
 	};
 };
 binarizationWanted=0;
-sourceName="noya_mike_force";
+sourceName="noya_mike_force_b04";
 addons[]=
 {
 	"modules_f_vietnam",
@@ -213,7 +213,7 @@ class Mission
 	assetType="Free";
 	class Intel
 	{
-		briefingName="Mike Force (v1.00.03) kor";
+		briefingName="Mike Force (v1.00.03)_kor_b04";
 		timeOfChanges=1800.0002;
 		startWeather=0.25;
 		startWind=0.1;
