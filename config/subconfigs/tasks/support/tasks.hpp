@@ -7,7 +7,7 @@ class support_resupply : support_task
 	tasktype = "box";
 	taskimage = "vn\missions_f_vietnam\data\img\mikeforce\s\vn_ui_mf_task_ac1.jpg";
 	taskgroups[] = {"ACAV", "GreenHornets"};
-	requestgroups[] = {"MikeForce","SpikeTeam"};
+	requestgroups[] = {"MikeForce","SpikeTeam","ACAV"};
 	rankpoints = 10;
 	taskprogress = 0;
 
