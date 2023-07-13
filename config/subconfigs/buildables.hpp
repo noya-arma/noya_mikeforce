@@ -5297,51 +5297,6 @@ class Land_vn_i_shed_ind_old_f
 						//side = "WEST";
 					};
 				};
-				class mules
-				{
-					icon = VEHICLE_ICON_CAR;
-					name = "STR_vn_mf_vic_mule";
-
-					class vn_b_wheeled_m274_01_01
-					{
-						cost[] = {{"BuildingSupplies", 100}};
-						cooldown = 120;
-						icon = VEHICLE_ICON_CAR;
-						//side = "WEST";
-					};
-
-					class vn_b_wheeled_m274_02_01
-					{
-						cost[] = {{"BuildingSupplies", 100}};
-						cooldown = 120;
-						icon = VEHICLE_ICON_CAR;
-						//side = "WEST";
-					};
-
-					class vn_b_wheeled_m274_mg_02_01
-					{
-						cost[] = {{"BuildingSupplies", 250}};
-						cooldown = 120;
-						icon = VEHICLE_ICON_CAR;
-						//side = "WEST";
-					};
-
-					class vn_b_wheeled_m274_mg_03_01
-					{
-						cost[] = {{"BuildingSupplies", 200}};
-						cooldown = 120;
-						icon = VEHICLE_ICON_CAR;
-						//side = "WEST";
-					};
-
-					class vn_b_wheeled_m274_mg_01_01
-					{
-						cost[] = {{"BuildingSupplies", 200}};
-						cooldown = 120;
-						icon = VEHICLE_ICON_CAR;
-						//side = "WEST";
-					};
-				};
 				class cars
 				{
 					icon = VEHICLE_ICON_CAR;

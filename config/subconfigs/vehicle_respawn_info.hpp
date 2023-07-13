@@ -799,11 +799,6 @@ class spawn_point_types {
 				icon = VEHICLE_ICON_HELO;
 				include[] = { { "ch47", "firesupport" } };
 			};
-			class ah1g {
-				name = "AH-1G";
-				icon = VEHICLE_ICON_HELO;
-				include[] = { { "ah1g", "firesupport" } };
-			};
 			class uh1 {
 				name = "UH-1";
 				icon = VEHICLE_ICON_HELO;
