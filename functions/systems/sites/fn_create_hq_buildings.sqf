@@ -38,6 +38,26 @@ vn_mf_hq_composition = [
 	["Land_vn_o_tower_01",[-2.19238,-25.3643,0],267.329,1,0,[0,0],"","",false,false]
 ];
 
+_randomElements = selectRandom [
+	[],[],[],[],
+	[["vn_o_wheeled_btr40_mg_01_vcmf",[2.19238,25.3643,0],267.329,1,0,[0,0],"","",false,false],["vn_o_wheeled_btr40_mg_01_vcmf",[2.19238,45.3643,0],267.329,1,0,[0,0],"","",false,false]],
+	[["vn_o_wheeled_btr40_mg_01_vcmf",[2.19238,25.3643,0],267.329,1,0,[0,0],"","",false,false],["vn_o_wheeled_btr40_mg_01_vcmf",[2.19238,45.3643,0],267.329,1,0,[0,0],"","",false,false]],
+	[["vn_o_wheeled_btr40_mg_01_vcmf",[2.19238,25.3643,0],267.329,1,0,[0,0],"","",false,false],["vn_o_wheeled_btr40_mg_01_vcmf",[2.19238,45.3643,0],267.329,1,0,[0,0],"","",false,false]],
+	[["vn_o_wheeled_btr40_mg_01_vcmf",[2.19238,25.3643,0],267.329,1,0,[0,0],"","",false,false],["vn_o_wheeled_btr40_mg_01_vcmf",[2.19238,45.3643,0],267.329,1,0,[0,0],"","",false,false]],
+	[["vn_o_wheeled_z157_mg_01_nva65",[2.19238,25.3643,0],267.329,1,0,[0,0],"","",false,false],["vn_o_wheeled_z157_mg_01_nva65",[2.19238,45.3643,0],267.329,1,0,[0,0],"","",false,false]],
+	[["vn_o_wheeled_z157_mg_01_nva65",[2.19238,25.3643,0],267.329,1,0,[0,0],"","",false,false],["vn_o_wheeled_z157_mg_01_nva65",[2.19238,45.3643,0],267.329,1,0,[0,0],"","",false,false]],
+	[["vn_o_wheeled_z157_mg_01_nva65",[2.19238,25.3643,0],267.329,1,0,[0,0],"","",false,false],["vn_o_wheeled_z157_mg_01_nva65",[2.19238,45.3643,0],267.329,1,0,[0,0],"","",false,false]],
+	[["vn_o_wheeled_z157_mg_01_nva65",[2.19238,25.3643,0],267.329,1,0,[0,0],"","",false,false],["vn_o_wheeled_z157_mg_01_nva65",[2.19238,45.3643,0],267.329,1,0,[0,0],"","",false,false]],
+	[["vn_o_armor_btr50pk_01_nva65",[2.19238,25.3643,0],267.329,1,0,[0,0],"","",false,false]],
+	[["vn_o_armor_btr50pk_01_nva65",[2.19238,25.3643,0],267.329,1,0,[0,0],"","",false,false]],
+	[["vn_o_armor_pt76a_01_nva65",[2.19238,25.3643,0],267.329,1,0,[0,0],"","",false,false]],
+	[["vn_o_armor_t54b_01_vcmf",[2.19238,25.3643,0],267.329,1,0,[0,0],"","",false,false]]
+];
+
+{
+	vn_mf_hq_composition pushBack _x;
+} forEach _randomElements;
+
 private _hqObjects = [_position, 0, vn_mf_hq_composition] call BIS_fnc_objectsMapper;
 {
     if (_x isKindOf "Land_vn_o_trench_firing_01") then {

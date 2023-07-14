@@ -64,6 +64,17 @@ params ["_pos"];
 		} forEach _guns;
 		_objectives pushBack ([_spawnPos, 4, 4] call para_s_fnc_ai_obj_request_defend);
 
+		private _apcs = _hqObjects select {_x isKindOf "Car" || _x isKindOf "Tank" || _x isKindOf "TrackedAPC" || _x isKindOf "WheeledAPC" };
+		{
+			_objectives pushBack ([_x] call para_s_fnc_ai_obj_request_crew);
+			_objectives pushBack ([_x] call para_s_fnc_ai_obj_request_crew);
+			_objectives pushBack ([_x] call para_s_fnc_ai_obj_request_crew);
+			_objectives pushBack ([_x] call para_s_fnc_ai_obj_request_crew);
+			_objectives pushBack ([_x] call para_s_fnc_ai_obj_request_crew);
+			_objectives pushBack ([_x] call para_s_fnc_ai_obj_request_crew);
+			_objectives pushBack ([_x] call para_s_fnc_ai_obj_request_crew);
+		} forEach _apcs;
+
 		_siteStore setVariable ["aiObjectives", _objectives];
 		_siteStore setVariable ["markers", [_hqMarker]];
 		_siteStore setVariable ["staticGuns", _guns];
