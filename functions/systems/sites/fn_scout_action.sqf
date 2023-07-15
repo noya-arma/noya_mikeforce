@@ -38,7 +38,7 @@ vn_mf_scout_icons_to_draw = [];
 
 if (isNil "vn_mf_scout_draw_handler") then {
     vn_mf_scout_max_distance = 2000;
-    vn_mf_scout_fade_time = 10;
+    vn_mf_scout_fade_time = 5;
     vn_mf_scout_draw_handler = addMissionEventHandler ["Draw3D", {
         private _lastScoutTime = localNamespace getVariable "vn_mf_last_scout_time";
         //if (_lastScoutTime + vn_mf_scout_fade_time < time) exitWith {};

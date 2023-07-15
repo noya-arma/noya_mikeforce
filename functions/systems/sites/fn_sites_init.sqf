@@ -24,9 +24,9 @@ vn_mf_s_max_vehicle_depots_per_zone = getNumber (missionConfigFile >> "map_confi
 
 vn_mf_g_sites_partial_discovery_radius = 300;
 publicVariable "vn_mf_g_sites_partial_discovery_radius";
-vn_mf_g_sites_discovery_radius = 50;
+vn_mf_g_sites_discovery_radius = 30;
 publicVariable "vn_mf_g_sites_discovery_radius";
-vn_mf_g_sites_scout_action_cooldown = 30;
+vn_mf_g_sites_scout_action_cooldown = 300;
 publicVariable "vn_mf_g_sites_scout_action_cooldown";
 
 missionNamespace setVariable ["sites", []];
