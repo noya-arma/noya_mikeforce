@@ -58,7 +58,7 @@ _taskDataStore setVariable ["prepare_zone", {
 
 	//Default to X waves.
 	private _baseMultiplier = 5;//PLACEHOLDER VALUE
-	private _infantryMultiplier = _baseMultiplier * 2;
+	private _infantryMultiplier = _baseMultiplier * 4;
 
 	private _attackObjective = [
 		_taskDataStore getVariable "attackPos",
